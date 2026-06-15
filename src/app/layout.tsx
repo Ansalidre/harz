@@ -21,11 +21,7 @@ export const metadata: Metadata = {
     "Die App für alle, die den Harz lieben: Badeseen, Talsperren, Wasserfälle, Wanderwege und Wassersport-Spots auf einer interaktiven Karte – mit Navigation, Filtern und Insider-Tipps.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="de" className={`${fraunces.variable} ${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">{children}</body>
