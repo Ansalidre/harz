@@ -58,6 +58,83 @@ h1, h2, h3, h4, .font-display {
     );
 }
 
+/* Legal pages typography */
+.prose-legal h2 {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-moss);
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-mist);
+}
+
+.prose-legal h2:first-child {
+  margin-top: 0;
+}
+
+.prose-legal p {
+  color: rgba(26, 36, 32, 0.8);
+  line-height: 1.75;
+  margin-bottom: 0.875rem;
+  font-size: 0.9375rem;
+}
+
+.prose-legal ul {
+  margin-bottom: 1rem;
+  padding-left: 1.25rem;
+  list-style: none;
+}
+
+.prose-legal ul li {
+  position: relative;
+  padding-left: 1rem;
+  color: rgba(26, 36, 32, 0.75);
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  margin-bottom: 0.35rem;
+}
+
+.prose-legal ul li::before {
+  content: "–";
+  position: absolute;
+  left: -0.5rem;
+  color: var(--color-sage);
+}
+
+.prose-legal .info-box {
+  background: var(--color-sand);
+  border: 1px solid var(--color-mist);
+  border-radius: 1rem;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.prose-legal .info-box .label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-sage);
+  margin-bottom: 0.35rem;
+}
+
+.prose-legal .info-box p {
+  margin-bottom: 0;
+  font-size: 0.9375rem;
+}
+
+.prose-legal a {
+  color: var(--color-sage);
+  text-decoration: underline;
+  text-decoration-color: rgba(74, 124, 102, 0.4);
+}
+
+.prose-legal a:hover {
+  color: var(--color-moss);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .reveal {
     opacity: 0;

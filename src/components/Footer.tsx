@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-cream border-t border-mist py-10">
@@ -24,9 +26,9 @@ export default function Footer() {
         </p>
 
         <nav className="flex gap-5 text-xs text-ink/60">
-          <a href="#" className="hover:text-moss transition-colors">Impressum</a>
-          <a href="#" className="hover:text-moss transition-colors">Datenschutz</a>
-          <a href="#" className="hover:text-moss transition-colors">Kontakt</a>
+          <Link href="/impressum" className="hover:text-moss transition-colors">Impressum</Link>
+          <Link href="/datenschutz" className="hover:text-moss transition-colors">Datenschutz</Link>
+          <a href="mailto:jaitner_tim@web.de" className="hover:text-moss transition-colors">Kontakt</a>
         </nav>
       </div>
     </footer>
