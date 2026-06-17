@@ -2,16 +2,181 @@ import type { Metadata } from "next";
 import LegalLayout from "@/components/LegalLayout";
 
 export const metadata: Metadata = {
-  title: "Datenschutzerklärung – Harz Wasser Guide",
-  description: "Datenschutzerklärung des Harz Wasser Guide gemäß DSGVO.",
+  title: "Datenschutzerklärung / Privacy Policy – Harz Wasser Guide",
+  description: "Datenschutzerklärung des Harz Wasser Guide gemäß DSGVO. Privacy Policy of the Harz Wasser Guide pursuant to GDPR.",
 };
 
 export default function Datenschutz() {
   return (
     <LegalLayout
-      title="Datenschutzerklärung"
-      subtitle="Stand: 04.06.2026"
+      title="Datenschutzerklärung / Privacy Policy"
+      subtitle="Stand / As of: 04.06.2026"
     >
+
+      {/* ── ENGLISH VERSION ── */}
+      <h2 style={{borderBottom: "1px solid rgba(255,255,255,.1)", paddingBottom: "8px", marginBottom: "24px", color: "var(--accent, #3b9ede)", fontSize: "1rem", letterSpacing: "0.05em", textTransform: "uppercase"}}>English Version</h2>
+
+      <h2>1. Controller</h2>
+      <div className="info-box">
+        <div className="label">Data Protection Controller</div>
+        <p>
+          Tim Jaitner<br />
+          Frankenberger Straße 13<br />
+          38640 Goslar<br />
+          E-Mail:{" "}
+          <a href="mailto:jaitner_tim@web.de">jaitner_tim@web.de</a>
+        </p>
+      </div>
+
+      <h2>2. General Information</h2>
+      <p>
+        The protection of your personal data is important to us. We process your personal data
+        exclusively in accordance with applicable data protection laws, in particular the General
+        Data Protection Regulation (GDPR) and the German Federal Data Protection Act (BDSG).
+      </p>
+      <p>
+        This privacy policy informs you about what data is processed when using the Harz Wasser Guide.
+      </p>
+
+      <h2>3. Whistleblower System</h2>
+      <p>
+        The Harz Wasser Guide provides a whistleblower system through which reports of potential
+        legal violations, rule violations, or other misconduct can be submitted. Use of the system
+        is voluntary.
+      </p>
+
+      <h2>4. Purpose of Data Processing</h2>
+      <p>Processing is carried out exclusively for the following purposes:</p>
+      <ul>
+        <li>Receiving and processing reports</li>
+        <li>Communication with whistleblowers</li>
+        <li>Investigating reported matters</li>
+        <li>Conducting required inquiries</li>
+        <li>Fulfilling legal obligations</li>
+        <li>Protection against legal violations and misconduct</li>
+      </ul>
+
+      <h2>5. Legal Basis</h2>
+      <p>Processing is based on:</p>
+      <ul>
+        <li>Art. 6(1)(c) GDPR (legal obligation)</li>
+        <li>Art. 6(1)(f) GDPR (legitimate interest)</li>
+        <li>§ 10 Whistleblower Protection Act (HinSchG)</li>
+      </ul>
+      <p>
+        Where special categories of personal data are processed, this is done on the basis of
+        Art. 9(2)(g) GDPR in conjunction with § 22 BDSG.
+      </p>
+
+      <h2>6. Data Processed</h2>
+      <p>Depending on the content of your report, the following data may be processed:</p>
+      <ul>
+        <li>Name of the whistleblower (voluntary)</li>
+        <li>Email address or other contact details (voluntary)</li>
+        <li>Information about affected persons</li>
+        <li>Information about witnesses</li>
+        <li>Description of the matter</li>
+        <li>Uploaded documents and evidence</li>
+        <li>Communication data during processing</li>
+      </ul>
+      <p>Providing personal data is voluntary.</p>
+
+      <h2>7. Anonymous Reports</h2>
+      <p>
+        Reports can be submitted anonymously. Anonymous reporting does not disadvantage the
+        processing. However, follow-up questions cannot be asked, which may make it harder
+        to clarify the matter.
+      </p>
+
+      <h2>8. Confidentiality</h2>
+      <p>
+        The identity of whistleblowers is treated confidentially. Access to information is
+        granted only to persons assigned to handle the report.
+      </p>
+      <p>Disclosure occurs only:</p>
+      <ul>
+        <li>with your explicit consent,</li>
+        <li>due to legal obligations,</li>
+        <li>by order of a competent authority or court.</li>
+      </ul>
+
+      <h2>9. Recipients of Data</h2>
+      <p>
+        Personal data is only shared when necessary for processing the report or required by law.
+        Recipients may include in particular:
+      </p>
+      <ul>
+        <li>Authorities</li>
+        <li>Courts</li>
+        <li>Lawyers</li>
+        <li>External consultants</li>
+        <li>Technical service providers under data processing agreements</li>
+      </ul>
+      <p>
+        All service providers used are contractually obligated to comply with data protection regulations.
+      </p>
+
+      <h2>10. Use of the Online Form</h2>
+      <p>
+        When using the whistleblower form, technically necessary connection data is processed
+        to ensure the secure provision of the application. This may include:
+      </p>
+      <ul>
+        <li>IP address</li>
+        <li>Date and time of access</li>
+        <li>Browser type</li>
+        <li>Operating system</li>
+        <li>Pages accessed</li>
+      </ul>
+      <p>
+        This data is processed exclusively to ensure system security and technical operation.
+      </p>
+
+      <h2>11. Storage Period</h2>
+      <p>
+        Personal data is stored only as long as necessary for processing the report and fulfilling
+        legal retention obligations. After the purpose of processing no longer applies, the data
+        will be deleted or anonymized, unless legal retention obligations prevent this.
+      </p>
+
+      <h2>12. Data Security</h2>
+      <p>
+        We use appropriate technical and organizational measures to protect personal data from
+        loss, manipulation, unauthorized access, or unauthorized disclosure. These include in particular:
+      </p>
+      <ul>
+        <li>SSL/TLS encryption</li>
+        <li>Access restrictions</li>
+        <li>Role-based permissions</li>
+        <li>Regular security audits</li>
+        <li>Logging of security-relevant events</li>
+      </ul>
+
+      <h2>13. Rights of Data Subjects</h2>
+      <p>Under the GDPR, you have in particular the following rights:</p>
+      <ul>
+        <li>Right of access (Art. 15 GDPR)</li>
+        <li>Right to rectification (Art. 16 GDPR)</li>
+        <li>Right to erasure (Art. 17 GDPR)</li>
+        <li>Right to restriction of processing (Art. 18 GDPR)</li>
+        <li>Right to data portability (Art. 20 GDPR)</li>
+        <li>Right to object (Art. 21 GDPR)</li>
+        <li>Right to withdraw consent</li>
+      </ul>
+      <p>
+        You also have the right to lodge a complaint with a data protection supervisory authority.
+      </p>
+
+      <h2>14. Changes to this Privacy Policy</h2>
+      <p>
+        We reserve the right to update this privacy policy if required due to legal, technical,
+        or organizational changes. The current version published on this website always applies.
+      </p>
+
+      {/* ── DEUTSCHE VERSION ── */}
+      <div style={{borderTop: "2px solid rgba(255,255,255,.1)", marginTop: "56px", paddingTop: "40px"}}>
+        <h2 style={{borderBottom: "1px solid rgba(255,255,255,.1)", paddingBottom: "8px", marginBottom: "24px", color: "var(--accent, #3b9ede)", fontSize: "1rem", letterSpacing: "0.05em", textTransform: "uppercase"}}>Deutsche Version</h2>
+      </div>
 
       <h2>1. Verantwortlicher</h2>
       <div className="info-box">
