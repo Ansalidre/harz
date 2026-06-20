@@ -39,31 +39,43 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: gibt es versteckte seen oder geheimtipps im harz?.
+            Wer im Harz nach dem sucht, was die meisten Reiseführer nicht zeigen, wird belohnt:
+            versteckte Waldteiche, stille Naturseen und kleine Badestellen, die nur Einheimische kennen.
           </p>
-          <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
-          </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Prinzenteich bei Clausthal-Zellerfeld</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Der Prinzenteich ist einer der zahlreichen historischen Teiche des Oberharzer Wasserregals
+            und liegt mitten im Wald. Im Sommer spiegeln sich die Fichten im stillen Wasser,
+            im Herbst gibt es kaum einen schöneren Ort für eine Runde mit dem Hund.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
+          <h2>Kleine Teiche entlang der Gräben</h2>
+          <p>
+            Wer auf den Graben-Wanderwegen rund um Sankt Andreasberg oder Clausthal-Zellerfeld
+            unterwegs ist, entdeckt immer wieder kleine Teiche und Wasseransammlungen abseits der Wege.
+          </p>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Geheimtipp:</strong> Besonders schön sind die stillen Teiche im Morgennebel —
+            wer früh aufbricht, erlebt eine andere Welt.</p>
           </div>
+          <h2>Bergseen im Nationalpark</h2>
+          <p>
+            Im Nationalpark Harz gibt es mehrere kleinere Gewässer, die nicht in jedem Reiseführer
+            auftauchen. Hier brüten seltene Vogelarten und die Natur ist vollständig sich selbst überlassen.
+          </p>
+          <h3>Wie findet man Geheimtipps?</h3>
+          <p>
+            Die Harz Wasser Guide App zeigt auch wenig bekannte Gewässer, Moorteiche und stille
+            Badestellen. Einheimische kennen oft noch mehr — ein freundliches Gespräch in der
+            Wanderhütte lohnt sich.
+          </p>
+          <h3>Bitte beachten</h3>
+          <p>
+            Viele dieser stillen Orte sind so schön, weil sie wenig besucht werden.
+            Hinterlasse keinen Müll, halte Lärm gering und respektiere die Natur.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

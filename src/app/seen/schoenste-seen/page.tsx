@@ -39,31 +39,56 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: welche seen im harz sind die schönsten?.
+            Der Harz ist nicht nur ein Mittelgebirge voller Wälder und Gipfel — er ist auch eine
+            erstaunliche Wasserlandschaft. Dutzende Seen, Teiche und Talsperren verteilen sich
+            über das gesamte Gebiet, viele davon eingebettet in uralten Nadelwald oder im Schatten
+            markanter Felsen. Wer die schönsten Gewässer des Harzes kennenlernen möchte,
+            braucht keine langen Anreisen — sie liegen oft direkt am Wegesrand.
+          </p>
+          <h2>Oderteich – der älteste Stausee des Harzes</h2>
+          <p>
+            Der Oderteich bei Sankt Andreasberg wurde bereits im 18. Jahrhundert als Teil des
+            Oberharzer Wasserregals angelegt und zählt heute zu den ältesten künstlichen Stauseen
+            Deutschlands. Das klare, dunkle Wasser spiegelt die umliegenden Fichten und Kiefern —
+            im Herbst ein fast unwirkliches Panorama. Ein Rundweg führt in etwa 1,5 Stunden einmal
+            um den See herum.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Oderteich im Überblick</div>
+            <p>Lage: Sankt Andreasberg · Rundweg: ca. 4 km · Parkplatz: Kostenpflichtig · Baden: Nicht erlaubt (Trinkwasserschutz)</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Okerstausee – Naturerlebnis mit Panoramablick</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Der Okerstausee südlich von Goslar bietet spektakuläre Blicke auf die Oker-Schlucht
+            und die Staumauer. Das umliegende Wegesystem ermöglicht Wanderungen unterschiedlicher
+            Länge — von der kurzen Runde entlang der Staumauer bis zur mehrstündigen Tour durch das Okertal.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Tipp:</strong> Die Aussicht von der Staumauer auf den See ist besonders
+            eindrucksvoll am frühen Morgen, wenn der Nebel noch über dem Wasser liegt.</p>
           </div>
+          <h2>Silberteich – Stille im Hochharz</h2>
+          <p>
+            Der Silberteich bei Clausthal-Zellerfeld ist deutlich weniger frequentiert als die
+            großen Talsperren. Seine stille Atmosphäre zieht vor allem Naturliebhaber und
+            Fotografen an. Der Weg dorthin führt durch alten Fichtenwald und lässt sich gut
+            mit weiteren Teichen des Wasserregals kombinieren.
+          </p>
+          <h2>Juessee – der Badesee bei Bad Harzburg</h2>
+          <p>
+            Wer tatsächlich ins Wasser möchte, ist am Juessee bei Bad Harzburg am besten
+            aufgehoben. Der See hat einen flachen Sandstrand, klares Wasser und ist
+            besonders für Familien mit Kindern geeignet.
+          </p>
+          <h3>Beste Jahreszeiten</h3>
+          <p>
+            <strong>Frühjahr (April–Mai):</strong> Maximale Wasserstände, frischer Wald, wenig Besucher.
+            <strong>Sommer (Juni–August):</strong> Ideal zum Baden am Juessee.
+            <strong>Herbst (September–Oktober):</strong> Goldenes Laub spiegelt sich im Wasser — fotografisch die schönste Zeit.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

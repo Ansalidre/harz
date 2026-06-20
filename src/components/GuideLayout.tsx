@@ -181,6 +181,7 @@ export default function GuideLayout({
 
           {/* App CTA */}
           <div className="rounded-2xl bg-moss p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 contour-lines">
+            <img src="/images/app-icon.png" alt="Harz Wasser Guide" style={{ width: 52, height: 52, borderRadius: 12, flexShrink: 0 }} />
             <div>
               <p className="text-xs font-semibold uppercase tracking-wide text-clay mb-1">Harz Wasser Guide App</p>
               <h3 className="font-display text-xl font-semibold text-cream mb-1">

@@ -39,31 +39,42 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: kann man zu den wasserfällen im harz wandern?.
+            Die meisten Harzer Wasserfälle liegen nicht direkt an der Straße — man muss sie sich
+            erwandern. Das ist kein Nachteil, sondern ein Gewinn: Der Weg zum Wasserfall gehört
+            zum Erlebnis.
+          </p>
+          <h2>Route Radautal – Bad Harzburg zum Radauwasserfall</h2>
+          <p>
+            Von Bad Harzburg aus führt der gut ausgeschilderte Weg durch das Radautal — entlang
+            der Radau, durch alten Mischwald. Nach etwa 3 km erreicht man den Wasserfall.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Wanderung Radauwasserfall</div>
+            <p>Start: Bad Harzburg Ortsmitte · Länge (einfach): ca. 3 km · Höhenunterschied: ca. 150 m ·
+            Dauer (Hin und zurück): 2–3 Stunden · Schwierigkeit: Leicht bis Mittel</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Ilsetal-Wanderung – mehrere Wasserfälle in einem</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Von Ilsenburg aus führt der Weg bachaufwärts — vorbei an Felsen, Stromschnellen und
+            den Ilsefällen bis hinauf zum Brocken. Die Strecke bis zum Brocken: ca. 12 km mit 800 Höhenmetern.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
+          <h2>Okkertal – Romkehaller Wasserfall und mehr</h2>
+          <p>
+            Das Okkertal bietet eine der schönsten Talwanderungen des Harzes. Wer weiter geht,
+            kommt zur Okertalsperre — eine lohnende Verlängerung.
+          </p>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Kombinationstipp:</strong> Besuche den Wasserfall und wandere dann weiter
+            zur Okertalsperre. Hin- und Rückweg ca. 8 km, Dauer ca. 3 Stunden.</p>
           </div>
+          <h3>Tipps für nasse Wege</h3>
+          <p>
+            Besonders nach Regen können die Wege rutschig werden. Festes Schuhwerk mit Profil
+            ist Pflicht, keine Sneaker oder Sandalen.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

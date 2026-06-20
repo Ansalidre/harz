@@ -39,31 +39,50 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: wann ist die beste zeit für einen besuch der harzer wasserfälle?.
+            Die Harzer Wasserfälle sind zu jeder Jahreszeit sehenswert — aber sie sind nicht zu
+            jeder Zeit gleich imposant. Wer die volle Kraft erleben möchte, sollte zur richtigen
+            Zeit kommen.
+          </p>
+          <h2>Frühjahr (März–Mai) – die beste Zeit</h2>
+          <p>
+            Wenn der Schnee auf dem Brocken schmilzt, schwellen alle Bachläufe mächtig an.
+            Die Wasserfälle führen dann teils zwei- bis dreimal mehr Wasser als im Sommer —
+            das Rauschen ist von Weitem zu hören.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Frühjahr: Was zu beachten ist</div>
+            <p>Die Wege können nach der Schneeschmelze noch aufgeweicht und rutschig sein.
+            Festes Schuhwerk ist Pflicht. Im April kann es im Hochharz noch Schneereste geben.</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Sommer (Juni–August) – viel los, aber trotzdem schön</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Im Sommer führen die Wasserfälle am wenigsten Wasser, aber die üppige Vegetation
+            macht die Bachläufe zu grünen Tunneln und die Abkühlung am Wasser ist willkommen.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
+          <h2>Herbst (Oktober–November) – Farben und Regen</h2>
+          <p>
+            Nach den ersten Herbstregenfällen steigen die Wasserpegel wieder, und der goldene
+            Wald rund um die Wasserfälle ist schlicht atemberaubend.
+          </p>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Herbst-Tipp:</strong> Mitte Oktober nach einem Regentag ist die perfekte
+            Kombination — volle Wasserpegel, goldenes Laub und wenig Besucher.</p>
           </div>
+          <h2>Winter (Dezember–Februar) – eingefrorene Wunder</h2>
+          <p>
+            Wenn es im Harz richtig kalt wird, gefrieren die Wasserfälle teilweise. Eiszapfen
+            und Eisformationen sind ein beeindruckender Anblick. Vorsicht auf vereisten Wegen.
+          </p>
+          <h3>Zusammenfassung: Wann für wen?</h3>
+          <p>
+            <strong>Wassermengen maximieren:</strong> März–Mai ·
+            <strong>Familien mit Kindern:</strong> Juni–August ·
+            <strong>Fotografie:</strong> Oktober oder März ·
+            <strong>Winterzauber:</strong> Dezember–Februar bei Frost
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

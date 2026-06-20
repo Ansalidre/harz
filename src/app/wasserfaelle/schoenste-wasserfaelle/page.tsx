@@ -39,31 +39,43 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: wo befinden sich die schönsten wasserfälle im harz?.
+            Wasserfälle haben eine magische Anziehungskraft — das Rauschen, das Sprühen, die Kraft
+            des fallenden Wassers. Der Harz bietet eine überraschende Auswahl, von romantischen
+            Waldkaskaden bis zu imposanten Naturschauspielen.
+          </p>
+          <h2>Romkerhaller Wasserfall – der Bekannteste im Harz</h2>
+          <p>
+            Der Romkerhaller Wasserfall im Okkertal stürzt in mehreren Stufen über das Felsgestein.
+            Besonders eindrucksvoll ist er nach starken Regenfällen und im Frühjahr nach der Schneeschmelze.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Romkerhaller Wasserfall</div>
+            <p>Ort: Oker, Goslar · Eintritt: Ja (kleiner Beitrag) · Parkplatz: Am Wanderparkplatz Okertal ·
+            Gehzeit: ca. 15 Minuten · Hunde: Willkommen</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Radauwasserfall – romantisch und leicht erreichbar</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Der Radauwasserfall bei Bad Harzburg ist einer der meistbesuchten Wasserfälle im Harz.
+            Der Weg durch das Radautal ist auch für Familien gut machbar. Am Wasserfall gibt es
+            eine Holzbrücke mit direktem Blick — ein fantastischer Fotospot.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
+          <h2>Ilsefälle – die wilden Schwestern</h2>
+          <p>
+            Im Ilsetal zwischen Ilsenburg und dem Brocken gibt es eine ganze Reihe von Wasserfällen
+            und Kaskaden. Der Weg entlang der Ilse ist einer der schönsten Bachtalwege im Harz.
+          </p>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Fotografie-Tipp:</strong> Für seidenweiches Wasser am besten an bewölkten
+            Tagen fotografieren — dann leuchtet das Wasser und der Wald hat sein schönstes Grün.</p>
           </div>
+          <h3>Wann sind die Wasserfälle am eindrucksvollsten?</h3>
+          <p>
+            <strong>März bis Mai</strong> nach der Schneeschmelze — dann führen alle Bäche Hochwasser
+            und die Wasserfälle sind in ihrer vollen Kraft.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

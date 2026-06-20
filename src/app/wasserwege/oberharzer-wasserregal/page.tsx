@@ -39,31 +39,45 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: was ist das oberharzer wasserregal?.
+            Kaum ein Besucher des Harzes ahnt, welches technische Wunderwerk unter seinen Füßen
+            verborgen liegt. Das Oberharzer Wasserregal ist eines der größten und am besten
+            erhaltenen vorindustriellen Wassermanagementsysteme der Welt — und seit 2010 UNESCO-Welterbe.
+          </p>
+          <h2>Geschichte: Wie alles begann</h2>
+          <p>
+            Im 16. Jahrhundert boomte der Silberbergbau im Oberharz. Die Bergleute stießen auf ein
+            grundlegendes Problem: Die Gruben füllten sich mit Wasser. Die Lösung war revolutionär —
+            man nutzte das Wasser selbst als Energiequelle durch Stauteiche, Gräben und unterirdische Wasserläufe.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Das Oberharzer Wasserregal in Zahlen</div>
+            <p>Über 500 km Gräben · Mehr als 100 Teiche · Entstanden zwischen 16. und 19. Jahrhundert ·
+            Seit 2010 UNESCO-Welterbe · Weltweit größtes vorindustrielles Wassermanagementsystem</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>UNESCO-Welterbe: Was wurde anerkannt?</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Im Jahr 2010 nahm die UNESCO das Oberharzer Wasserregal gemeinsam mit den Erzbergwerken
+            Rammelsberg und der Altstadt von Goslar in die Welterbeliste auf.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Besuchertipp:</strong> Das Weltkulturerbe Rammelsberg in Goslar bietet
+            unterirdische Führungen und Ausstellungen zur Geschichte des Wasserregals.</p>
           </div>
+          <h2>Heute: Wandern auf historischen Wegen</h2>
+          <p>
+            Viele der historischen Gräben sind heute als Wanderwege zugänglich. Der Rehberger Graben,
+            der Kranicher Teich oder der Graben rund um Clausthal-Zellerfeld lassen sich erwandern
+            und geben einen lebendigen Eindruck dieser ingenieurtechnischen Leistung.
+          </p>
+          <h3>Für Familien</h3>
+          <p>
+            Kinder fasziniert die Idee, dass Menschen hier schon vor Hunderten von Jahren Wasser
+            wie Strom durch "Leitungen" geleitet haben. Die Gräben sind gut sichtbar und das Wasser
+            fließt noch heute durch viele von ihnen.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

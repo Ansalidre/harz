@@ -39,31 +39,39 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: welche wasserwanderwege im harz sind auch für anfänger geeignet?.
+            Wer zum ersten Mal im Harz wandert, ist bei den Wasserwanderwegen bestens aufgehoben.
+            Die historischen Gräben verlaufen meist nahezu eben, die Wege sind gut befestigt und
+            das fließende Wasser sorgt dafür, dass es nie langweilig wird.
+          </p>
+          <h2>Graben-Wanderweg Buntenbock – ideal für Einsteiger</h2>
+          <p>
+            Der Graben-Wanderweg rund um Buntenbock bei Clausthal-Zellerfeld ist einer der
+            einfachsten und gleichzeitig schönsten Wege im Harz — etwa 6 km fast eben durch
+            Fichtenwald entlang historischer Wassergräben.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Buntenbock Graben-Runde</div>
+            <p>Länge: ca. 6 km · Höhenunterschied: minimal · Dauer: 1,5–2 Stunden ·
+            Schwierigkeit: Leicht · Parkplatz: In Buntenbock vorhanden</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Prinzenteich-Runde – kurz, schön, perfekt</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Die kleine Runde um den Prinzenteich eignet sich hervorragend als erste Wanderung
+            im Harz. Rund 3 km, kaum Steigung, schöne Blicke auf den historischen Teich.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Anfänger-Tipp:</strong> Starte immer mit einer kürzeren Route und halte
+            dir die Option offen, umzukehren. Die Wasserwanderwege sind nie eine Einbahnstraße.</p>
           </div>
+          <h2>Navigation und Orientierung</h2>
+          <p>
+            Die meisten Wasserwanderwege sind gut ausgeschildert. Zusätzlich hilft die Harz Wasser
+            Guide App mit Kartenansicht und aktueller Position. Offline-Karten herunterladen —
+            dann bist du auch ohne Mobilfunkempfang gut aufgestellt.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

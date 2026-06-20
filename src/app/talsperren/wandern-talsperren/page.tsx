@@ -39,31 +39,42 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: kann man an den talsperren im harz wandern?.
+            Die Harzer Talsperren sind nicht nur Wasserspeicher — sie sind auch Ausgangspunkte
+            für einige der schönsten Wanderungen in der Region. Ruhige Uferwege, spektakuläre
+            Ausblicke auf die Staumauer und ständiges Wasserrauschen begleiten den Wanderer.
+          </p>
+          <h2>Rundwanderung Okertalsperre – Highlight des Harzes</h2>
+          <p>
+            Die Runde um den Okerstausee führt auf ca. 12 km durch abwechslungsreichen Wald,
+            vorbei an der imposanten Staumauer und durch die wild-romantische Oker-Schlucht.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Rundwanderung Okertalsperre</div>
+            <p>Länge: ca. 12 km · Höhenunterschied: ca. 300 m · Dauer: 3,5–4,5 Stunden ·
+            Schwierigkeit: Mittel · Parkplatz: An der Staumauer, kostenpflichtig</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Sösetalsperre – einfach und familientauglich</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Die Runde um den Sösesee ist deutlich gemächlicher und gut für Familien geeignet.
+            Im Sommer lädt die Badestelle zum Abkühlen ein.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
+          <h2>Rappbodetalsperre – Wandern mit Spektakel</h2>
+          <p>
+            Wer die Titan-RT Hängebrücke überquert, erlebt das Highlight der Tour
+            in 100 Meter Höhe über dem Wasser.
+          </p>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Kombinations-Tipp:</strong> Starte an der Rappbodetalsperre, überquere
+            die Hängebrücke und wandere dann auf dem Uferweg zurück — zwei völlig unterschiedliche Perspektiven.</p>
           </div>
+          <h3>Beste Jahreszeit zum Wandern</h3>
+          <p>
+            <strong>Frühling und Herbst</strong> sind die besten Jahreszeiten — angenehme Temperaturen,
+            wenig Besucher und die Natur in ihrer schönsten Form.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

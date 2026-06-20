@@ -72,11 +72,8 @@ export default function Header() {
         <div className="mx-auto max-w-6xl px-5 sm:px-8 h-16 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 flex-shrink-0">
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-moss text-cream">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                <path d="M3 18c2-4 4-6 6-6s3 3 5 3 4-5 7-9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M3 13c2-3 4-4 6-4s3 2 5 2 4-4 7-7" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" opacity="0.5"/>
-              </svg>
+            <span className="flex h-9 w-9 rounded-xl overflow-hidden shadow-sm">
+              <img src="/images/app-icon.png" alt="Harz Wasser Guide App Icon" className="w-full h-full object-cover" />
             </span>
             <span className={`font-display text-base font-semibold tracking-tight hidden sm:block ${scrolled ? "text-moss" : "text-cream"}`}>
               Harz Wasser Guide

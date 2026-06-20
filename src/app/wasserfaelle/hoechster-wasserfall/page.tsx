@@ -39,31 +39,43 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: welcher wasserfall im harz ist der höchste?.
+            Welcher Wasserfall im Harz ist der höchste? Eine eindeutige Antwort ist schwieriger als
+            gedacht — der Harz hat keine einzelnen vertikalen Stürze wie die Alpen, sondern eher
+            Kaskaden und mehrstufige Wasserfälle entlang der Bachläufe.
+          </p>
+          <h2>Romkerhaller Wasserfall – der eindrucksvollste</h2>
+          <p>
+            Über mehrere Stufen fällt das Wasser der Romke in die Tiefe — in der Summe über 20 Meter.
+            Was ihn besonders macht: Die Kombination aus Wassermenge, Geräusch und der engen Felsschlucht.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Vergleich der größten Harzer Wasserfälle</div>
+            <p>Romkerhaller Wasserfall: ca. 20 m (mehrstufig) · Radauwasserfall: ca. 8 m ·
+            Ilsefälle: mehrere kleinere Stufen · Steinerne Renne: ca. 5 m Hauptstufe</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Steinerne Renne bei Wernigerode</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Die Steinerne Renne ist ein breiter, seichter Wasserfall, der über Felsplatten glätschert.
+            Nicht der höchste, aber einer der breitesten und durch seine sanfte Form besonders fotogen.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
+          <h2>Radauwasserfall – für Fotografen ein Traumziel</h2>
+          <p>
+            Der Radauwasserfall fällt zwar nur etwa 8 Meter, aber die Holzbrücke davor ermöglicht
+            Fotos aus perfekter Perspektive.
+          </p>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Fotografen-Tipp:</strong> Stativ mitbringen für Langzeitbelichtungen —
+            auch mit dem Smartphone funktioniert das mit den richtigen Apps gut.</p>
           </div>
+          <h3>Beste Fotospots</h3>
+          <p>
+            <strong>Romkehaller Wasserfall:</strong> Von der Holzbrücke unterhalb des Falls.
+            <strong>Radauwasserfall:</strong> Von der Aussichtsbrücke frontal auf den Fall.
+            <strong>Ilsefälle:</strong> Vom Bach aus, mit Blick bachaufwärts auf die Kaskaden.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

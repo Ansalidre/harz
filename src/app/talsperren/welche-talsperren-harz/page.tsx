@@ -39,31 +39,44 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: welche talsperren gibt es im harz?.
+            Der Harz ist das wasserreichste Mittelgebirge Norddeutschlands. Mehr als 20 Stauanlagen
+            verteilen sich über das Gebirge — sie versorgen Millionen Menschen mit Trinkwasser,
+            schützen vor Hochwasser und erzeugen Strom.
+          </p>
+          <h2>Rappbodetalsperre – die Königin der Harzer Talsperren</h2>
+          <p>
+            Mit einer Sperrmauerhöhe von 106 Metern ist die Rappbodetalsperre die größte Talsperre
+            Deutschlands nach Fassungsvermögen. Sie versorgt große Teile Sachsen-Anhalts mit Trinkwasser.
+            Seit 2017 zieht die Titan-RT Hängebrücke — mit 483 Metern Europas längste — Besucher aus ganz Europa an.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Rappbodetalsperre</div>
+            <p>Höhe Staumauer: 106 m · Stauvolumen: 109 Mio. m³ · Titan-RT Hängebrücke: 483 m ·
+            Parkplatz: Vorhanden, kostenpflichtig</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Okertalsperre – malerisch im Tal</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Die Okertalsperre bei Goslar liegt eingebettet zwischen bewaldeten Hängen und ist
+            vor allem bei Wanderern beliebt. Die Oker-Schlucht unterhalb der Mauer gehört zu
+            den eindrucksvollsten Naturszenerien des Harzes.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
+          <h2>Sösetalsperre – Erholung und Natur</h2>
+          <p>
+            Die Sösetalsperre bei Osterode ist die größte Trinkwassertalsperre in Niedersachsen
+            und ein beliebtes Ausflugsziel. Sie hat eine Badestelle und gut ausgebaute Wanderwege.
+          </p>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Tipp:</strong> Die Harz Wasser Guide App zeigt alle Talsperren auf einer
+            interaktiven Karte mit Wanderwegen, Parkmöglichkeiten und Besonderheiten.</p>
           </div>
+          <h3>Welche Talsperre eignet sich für Tagesausflüge?</h3>
+          <p>
+            Für Baden: <strong>Sösetalsperre</strong>. Für Ingenieurbaukunst und Hängebrücke:
+            <strong>Rappbodetalsperre</strong>. Für ruhige Wanderungen: <strong>Okertalsperre</strong>.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

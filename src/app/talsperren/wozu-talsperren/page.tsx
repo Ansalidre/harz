@@ -39,31 +39,46 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: wofür wurden die harzer talsperren gebaut?.
+            Wer an einer Harzer Talsperre steht und die gewaltige Staumauer betrachtet, fragt sich
+            unweigerlich: Warum wurde das hier gebaut? Die Antwort ist vielschichtig — und erklärt,
+            warum der Harz heute einer der wichtigsten Wasserspeicher Norddeutschlands ist.
+          </p>
+          <h2>Trinkwasserversorgung – die wichtigste Aufgabe</h2>
+          <p>
+            Die Rappbodetalsperre allein versorgt rund 1,3 Millionen Menschen in Sachsen-Anhalt
+            mit sauberem Trinkwasser. Das Harzgebirge mit seinem hohen Niederschlag und dichten
+            Waldbestand ist ein natürlicher Filter — das Wasser ist von außergewöhnlicher Qualität.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Trinkwasser aus dem Harz</div>
+            <p>Die Harzer Talsperren versorgen gemeinsam mehrere Millionen Menschen in Niedersachsen,
+            Sachsen-Anhalt und Thüringen. Das Talsperrenwasser gilt als eines der reinsten Trinkwasser Deutschlands.</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Hochwasserschutz – Puffer für Extremereignisse</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Wenn im Frühjahr der Schnee schmilzt oder nach Starkregen die Bäche anschwellen,
+            puffern die Talsperren die Wassermengen. Ohne sie wären Städte wie Halberstadt
+            oder Quedlinburg regelmäßig von Überflutungen bedroht.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
+          <h2>Energiegewinnung – Wasserkraft im Harz</h2>
+          <p>
+            Mehrere Harzer Talsperren sind mit Wasserkraftwerken ausgestattet. Das Pumpspeicherwerk
+            Wendefurth kann innerhalb von Minuten ans Netz gehen und bei Stromspitzen schnell
+            Energie bereitstellen.
+          </p>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Wusstest du?</strong> Das Pumpspeicherwerk Wendefurth spielt eine wichtige
+            Rolle für die Netzstabilität in der Energiewende.</p>
           </div>
+          <h3>Sicherheit und Überwachung</h3>
+          <p>
+            Moderne Talsperren werden kontinuierlich überwacht — Sensoren messen Wasserstand,
+            Druck und Bewegungen der Mauer rund um die Uhr. Die Sicherheitsstandards in
+            Deutschland gehören zu den höchsten der Welt.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

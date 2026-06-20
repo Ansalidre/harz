@@ -1,3 +1,9 @@
+// App icon shown in store buttons
+const AppIcon = () => (
+  <img src="/images/app-icon.png" alt="" aria-hidden="true"
+    style={{ width: 32, height: 32, borderRadius: 8, objectFit: "cover", flexShrink: 0 }} />
+);
+
 interface StoreButtonsProps {
   variant?: "light" | "dark";
 }
@@ -14,7 +20,7 @@ export default function StoreButtons({ variant = "light" }: StoreButtonsProps) {
   return (
     <div id="download" className="flex flex-wrap gap-3">
       <a href="#" className={`${base} ${styles}`} aria-label="Im App Store laden (in Kürze verfügbar)">
-        <AppleIcon />
+        <AppIcon /><AppleIcon />
         <span className="text-left leading-tight">
           <span className="block text-[10px] uppercase tracking-wide opacity-70">
             Bald verfügbar
@@ -23,7 +29,7 @@ export default function StoreButtons({ variant = "light" }: StoreButtonsProps) {
         </span>
       </a>
       <a href="#" className={`${base} ${styles}`} aria-label="Bei Google Play laden (in Kürze verfügbar)">
-        <PlayIcon />
+        <AppIcon /><PlayIcon />
         <span className="text-left leading-tight">
           <span className="block text-[10px] uppercase tracking-wide opacity-70">
             Bald verfügbar

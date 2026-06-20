@@ -39,31 +39,39 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: was sind die schönsten wasserwanderwege im harz?.
+            Das Besondere an den Wasserwanderwegen im Harz ist, dass sie einem der faszinierendsten
+            Wassersysteme Europas folgen. Das Oberharzer Wasserregal prägt bis heute die Landschaft —
+            Wandern auf diesen Wegen bedeutet Geschichte spüren.
+          </p>
+          <h2>Der Rehberger Graben – Klassiker unter den Wasserwanderwegen</h2>
+          <p>
+            Der Rehberger Graben führt auf knapp 19 km von Sankt Andreasberg bis Königshütte —
+            fast immer leicht bergab, immer entlang des historischen Grabens. Eine der schönsten
+            Halbtageswanderungen im gesamten Harz.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Rehberger Graben</div>
+            <p>Länge: ca. 19 km · Höhenunterschied: ca. 300 m bergab · Dauer: 4–5 Stunden ·
+            Schwierigkeit: Leicht bis Mittel · Einkehr: In Sankt Andreasberg und Königshütte</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Graben-Wanderweg Clausthal – das Herz des Wasserregals</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Rund um Clausthal-Zellerfeld verlaufen mehrere historische Gräben, die man zu einem
+            ausgedehnten Netzwerk verbinden kann. Die Teiche des Wasserregals liegen hier besonders dicht.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Tipp:</strong> Kombiniere die Graben-Wanderwege mit einem Besuch im
+            Oberharzer Bergwerksmuseum in Clausthal-Zellerfeld.</p>
           </div>
+          <h2>Ilsetal – romantischstes Bachtal im Harz</h2>
+          <p>
+            Das Ilsetal zwischen Ilsenburg und dem Brocken gehört zu den romantischsten Wanderzielen.
+            Der Weg folgt der Ilse durch Felsen und dichtes Unterholz. Wasserfälle und Stromschnellen
+            begleiten den Wanderer bis hinauf auf den Brocken.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

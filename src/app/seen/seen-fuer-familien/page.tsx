@@ -39,31 +39,46 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: welche seen im harz eignen sich für familien mit kindern?.
+            Ein Ausflug mit Kindern zum See gelingt, wenn die Rahmenbedingungen stimmen:
+            flacher Zugang ins Wasser, ein schattiges Plätzchen, kein stundenlanger Fußmarsch
+            und im besten Fall noch ein Eis am Ufer. Der Harz bietet genau das — wenn man
+            die richtigen Seen kennt.
+          </p>
+          <h2>Juessee bei Bad Harzburg – die erste Wahl für Familien</h2>
+          <p>
+            Der Juessee ist der familienfreundlichste Badesee im Harz. Der Sandstrand fällt
+            sehr flach ab, sodass auch Kleinkinder sicher planschen können. Es gibt sanitäre
+            Anlagen, einen Kiosk und ausreichend Schattenplätze unter Bäumen.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Juessee im Überblick</div>
+            <p>Ort: Bad Harzburg · Parkplatz: Vorhanden, kostenpflichtig in der Saison ·
+            Sanitäranlagen: Ja · Kiosk: Saisonal · Hunde: Eigener Bereich vorhanden</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Sösestausee – Baden und Wandern kombinieren</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Der Sösestausee bei Osterode bietet neben einer Badestelle auch einfache
+            Wanderwege am Ufer. Ideal für Familien, die nach dem Schwimmen noch einen
+            kurzen Spaziergang machen möchten.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
+          <h2>Oderteich – für Entdeckergeister</h2>
+          <p>
+            Kein Badesee, aber für ältere Kinder ein spannendes Ausflugsziel. Der Rundweg
+            von 4 km ist auch für 6–8-jährige gut machbar. Unterwegs erklärt man den Kleinen,
+            warum der See schon seit 300 Jahren hier ist.
+          </p>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Tipp für Kinder:</strong> Am Oderteich kann man auf der historischen
+            Staumauer balancieren und durch die Baumwipfel schauen.</p>
           </div>
+          <h3>Was packe ich ein?</h3>
+          <p>
+            Badekleidung, Sonnencreme (Höhensonne!), Gummistiefel für die kleinen Entdecker,
+            Vesper und ausreichend Wasser. Ein Kescher für die Naturerkundung macht den Ausflug zum Erlebnis.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

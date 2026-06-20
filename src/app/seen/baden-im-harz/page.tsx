@@ -39,31 +39,51 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: kann man im harz in seen baden?.
+            Eine der häufigsten Fragen von Harztouristen: Darf man hier eigentlich ins Wasser?
+            Die kurze Antwort: Ja — aber nicht überall. Der Harz hat eine ganze Reihe offiziell
+            freigegebener Badestellen mit guter Wasserqualität, daneben aber auch viele Gewässer,
+            die dem Trinkwasserschutz dienen und wo Baden verboten ist.
+          </p>
+          <h2>Erlaubte Badestellen im Harz</h2>
+          <p>
+            Die wichtigste offizielle Badestelle ist der <strong>Juessee</strong> bei Bad Harzburg.
+            Er ist regelmäßig auf Wasserqualität geprüft, hat einen flachen Sandstrand und gilt als
+            familienfreundlichster Badesee des Harzes. Weitere freigegebene Badestellen finden sich
+            am <strong>Sösestausee</strong> nahe Osterode.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Aktuelle Wasserqualität</div>
+            <p>Die offizielle Überwachung erfolgt durch das Niedersächsische Landesgesundheitsamt.
+            Aktuelle Messwerte findest du auf deren Webseite oder in der Harz Wasser Guide App.</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Wo ist Baden verboten?</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            An den großen Talsperren — <strong>Rappbodetalsperre, Okertalsperre, Granetalsperre,
+            Oderteich</strong> — ist Baden grundsätzlich verboten, da sie der Trinkwasserversorgung dienen.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Wichtig:</strong> Das Missachten der Badeverbote an Talsperren kann mit
+            einem Bußgeld geahndet werden und schadet der Trinkwasserqualität.</p>
           </div>
+          <h2>Wasserqualität an den Badestellen</h2>
+          <p>
+            Die offiziell überwachten Badestellen im Harz haben in der Regel ausgezeichnete
+            Wasserqualität. Die Temperaturen liegen im Hochsommer zwischen 18 und 22 Grad —
+            erfrischend, aber nicht tropisch warm.
+          </p>
+          <h3>Tipps für Familien</h3>
+          <p>
+            Für Familien mit Kleinkindern ist der Juessee klar die beste Wahl — flacher Eingang,
+            bewachsener Uferbereich und gute Infrastruktur.
+          </p>
+          <h3>Hunde am Badesee</h3>
+          <p>
+            Hunde sind an den meisten Naturbadestellen willkommen. Am Juessee gibt es einen
+            ausgewiesenen Hundebereich. Leine anlegen und auf andere Badegäste Rücksicht nehmen.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

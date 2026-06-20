@@ -39,31 +39,43 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: welche talsperre im harz ist die größte?.
+            Wenn man nach der größten Talsperre im Harz fragt, führt die Antwort unweigerlich zur
+            Rappbodetalsperre. Eine 106 Meter hohe Sperrmauer, 109 Millionen Kubikmeter gespeichertes
+            Wasser und Europas längste Fußgänger-Hängebrücke direkt über dem Stausee.
+          </p>
+          <h2>Die Zahlen hinter der Rappbodetalsperre</h2>
+          <p>
+            Die Talsperre wurde zwischen 1952 und 1959 gebaut. Das Gesamtstauvolumen beträgt rund
+            113 Millionen Kubikmeter — genug Wasser, um mehrere Großstädte ein Jahr lang zu versorgen.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Rappbodetalsperre – Technische Daten</div>
+            <p>Höhe Sperrmauer: 106 m · Kronenlänge: 415 m · Stauinhalt: 109 Mio. m³ ·
+            Wassereinzugsgebiet: 471 km² · Baujahr: 1952–1959</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Titan-RT: Europas längste Fußgänger-Hängebrücke</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Seit 2017 zieht die Titan-RT Hängebrücke Besucher aus ganz Europa an. 483 Meter lang,
+            100 Meter über dem Stausee — die Überquerung ist nichts für schwache Nerven, aber
+            unvergesslich. Eine Reservierung im Voraus wird empfohlen.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Praktischer Tipp:</strong> Am frühen Morgen kommen, um die ersten
+            Überquerungen ohne Warteschlange zu erleben.</p>
           </div>
+          <h2>Wandern rund um die Rappbodetalsperre</h2>
+          <p>
+            Die Standardrunde beträgt ca. 12 km und führt einmal rund um den Stausee —
+            in 3–4 Stunden zu bewältigen.
+          </p>
+          <h3>Anfahrt und Parken</h3>
+          <p>
+            Die Rappbodetalsperre liegt bei Elbingerode im Landkreis Harz. Der kostenpflichtige
+            Parkplatz am Besucherzentrum ist an Wochenenden in der Hauptsaison schnell voll.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );

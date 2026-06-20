@@ -39,31 +39,42 @@ export default function Page() {
       >
         <div className="guide-prose">
           <p>
-            <strong>Dieser Ratgeber wird demnächst mit ausführlichem Inhalt befüllt.</strong> Hier erfährst du alles über: gibt es wasserwanderwege im harz für familien?.
+            Mit Kindern wandern geht immer — wenn das Ziel stimmt. Ein Wasserweg hat dabei einen
+            entscheidenden Vorteil: Das plätschernde Wasser hält Kinder bei Laune wie kaum etwas anderes.
+          </p>
+          <h2>Prinzenteich-Runde – Traumstart für Familien</h2>
+          <p>
+            Nur 3 km, kaum Steigung, ein schöner historischer Teich als Ziel. Unterwegs erklären
+            Infotafeln die Geschichte des Wasserregals — auf kindgerechte Weise.
           </p>
           <div className="info-box">
-            <div className="label">Hinweis</div>
-            <p>Dieser Artikel befindet sich in Bearbeitung. Die vollständigen Informationen folgen in Kürze.</p>
+            <div className="label">Prinzenteich-Runde für Familien</div>
+            <p>Länge: ca. 3 km · Dauer: 1–1,5 Stunden · Schwierigkeit: Leicht ·
+            Geeignet ab: 4 Jahren · Parkplatz: In Clausthal-Zellerfeld vorhanden</p>
           </div>
-          <h2>Was dich erwartet</h2>
+          <h2>Was Kinder auf Wasserwanderwegen entdecken</h2>
           <p>
-            In diesem Ratgeber findest du bald ausführliche Informationen, praktische Tipps und alles Wissenswerte zum Thema.
-            Außerdem: interaktive Karte, Bildergalerie, Tipps für Familien, Hundeinfos, Parkmöglichkeiten und mehr.
+            Wasseramsel und Eisvogel fliegen am Ufer entlang, Forellen stehen im klaren Wasser,
+            Frösche springen ins Gras. Mit einem kleinen Fernglas und einem Bestimmungsbuch
+            wird der Wasserweg zur Naturoase.
           </p>
-          <ul>
-            <li>Ausführliche Beschreibungen der schönsten Orte</li>
-            <li>Praktische Tipps für deinen Besuch</li>
-            <li>Hinweise zu Anfahrt und Parkmöglichkeiten</li>
-            <li>Familientipps und Hundeinfos</li>
-            <li>Beste Reisezeit und Schwierigkeitsgrad</li>
-          </ul>
           <div className="highlight">
-            <p>
-              <strong>Tipp:</strong> Lade die Harz Wasser Guide App herunter und entdecke alle Orte direkt auf der interaktiven Karte – mit Navigation und Offline-Funktion.
-            </p>
+            <p><strong>Aktivität für Kinder:</strong> Steckt einen Papierschiffchen-Wettbewerb
+            auf dem Graben durch — wessen Schiff kommt zuerst ans Ziel?</p>
           </div>
+          <h2>Tipps für die Planung</h2>
+          <p>
+            Plane maximal 5 km für Kinder unter 8 Jahren. Baue Pausen ein — am besten
+            an einem schönen Teich oder einem breiten Graben, wo man ein bisschen spielen kann.
+          </p>
+          <h3>Wann ist der beste Zeitpunkt?</h3>
+          <p>
+            <strong>Frühling (April–Juni)</strong> ist ideal — die Natur erwacht, das Wasser
+            führt ausreichend Wasser und die Temperaturen sind angenehm.
+          </p>
         </div>
-      </GuideLayout>
+      
+            </GuideLayout>
       <Footer />
     </>
   );
