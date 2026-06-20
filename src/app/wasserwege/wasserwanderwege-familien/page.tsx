@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Gibt es Wasserwanderwege im Harz für Familien? – Harz Wasser Guide",
-  description: "Kurze Routen mit Erlebnischarakter, Naturlehrpfaden und spannenden Stationen für Kinder.",
+  title: "Wasserwanderwege im Harz für Familien",
+  description: "Kurze Wasserwanderwege im Harz für Familien mit Kindern: Prinzenteich-Runde, Naturentdeckungen und Tipps für einen erlebnisreichen Tag am Wasser.",
+  alternates: { canonical: "https://harzwasserguide.de/wasserwege/wasserwanderwege-familien/" },
+  openGraph: {
+    title: "Wasserwanderwege im Harz für Familien",
+    description: "Kurze Wasserwanderwege im Harz für Familien mit Kindern: Prinzenteich-Runde, Naturentdeckungen und Tipps für einen erlebnisreichen Tag am Wasser.",
+    url: "https://harzwasserguide.de/wasserwege/wasserwanderwege-familien/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Kann man an den Talsperren im Harz wandern? – Harz Wasser Guide",
-  description: "Rundwanderwege, Aussichtspunkte und Einkehrmöglichkeiten entlang der Stauseen des Harzes.",
+  title: "Wandern an Harzer Talsperren – Rundwege & Aussichtspunkte",
+  description: "Wanderwege an Harzer Talsperren: Okertalsperre-Runde (12 km), Sösetalsperre-Runde, Rappbodetalsperre mit Titan-RT. Mit Länge, Dauer und Tipps.",
+  alternates: { canonical: "https://harzwasserguide.de/talsperren/wandern-talsperren/" },
+  openGraph: {
+    title: "Wandern an Harzer Talsperren – Rundwege & Aussichtspunkte",
+    description: "Wanderwege an Harzer Talsperren: Okertalsperre-Runde (12 km), Sösetalsperre-Runde, Rappbodetalsperre mit Titan-RT. Mit Länge, Dauer und Tipps.",
+    url: "https://harzwasserguide.de/talsperren/wandern-talsperren/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

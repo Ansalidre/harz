@@ -4,8 +4,17 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Talsperren im Harz – Harz Wasser Guide",
-  description: "Von der Rappbodetalsperre bis zur Okertalsperre – Stauseen zum Wandern, Erholen und Staunen. Technische Giganten inmitten wilder Natur.",
+  title: "Talsperren im Harz – Rappbodetalsperre, Okertalsperre & mehr",
+  description: "Alle großen Talsperren im Harz im Überblick: Rappbodetalsperre mit Titan-RT Hängebrücke, Okertalsperre, Sösetalsperre und weitere Stauanlagen.",
+  alternates: { canonical: "https://harzwasserguide.de/talsperren/" },
+  openGraph: {
+    title: "Talsperren im Harz – Rappbodetalsperre, Okertalsperre & mehr",
+    description: "Alle großen Talsperren im Harz im Überblick: Rappbodetalsperre mit Titan-RT Hängebrücke, Okertalsperre, Sösetalsperre und weitere Stauanlagen.",
+    url: "https://harzwasserguide.de/talsperren/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

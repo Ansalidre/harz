@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Kann man im Harz in Seen baden? – Harz Wasser Guide",
-  description: "Offizielle Badestellen, Wasserqualität und was du vor dem Sprung ins kühle Nass wissen solltest.",
+  title: "Kann man im Harz in Seen baden? – Erlaubte Badestellen",
+  description: "Offizielle Badestellen im Harz, Wasserqualität und Badeverbote an Talsperren. Alles was du vor dem Sprung ins kühle Nass wissen musst.",
+  alternates: { canonical: "https://harzwasserguide.de/seen/baden-im-harz/" },
+  openGraph: {
+    title: "Kann man im Harz in Seen baden? – Erlaubte Badestellen",
+    description: "Offizielle Badestellen im Harz, Wasserqualität und Badeverbote an Talsperren. Alles was du vor dem Sprung ins kühle Nass wissen musst.",
+    url: "https://harzwasserguide.de/seen/baden-im-harz/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

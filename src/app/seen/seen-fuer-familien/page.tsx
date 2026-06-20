@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Welche Seen im Harz eignen sich für Familien mit Kindern? – Harz Wasser Guide",
-  description: "Flache Ufer, Spielmöglichkeiten und Picknickwiesen – die familienfreundlichsten Badeseen im Harz.",
+  title: "Seen im Harz für Familien mit Kindern",
+  description: "Familienfreundliche Badeseen im Harz: Juessee, Sösestausee und Oderteich. Mit Infos zu flachen Ufern, Spielmöglichkeiten und Kinderangeboten.",
+  alternates: { canonical: "https://harzwasserguide.de/seen/seen-fuer-familien/" },
+  openGraph: {
+    title: "Seen im Harz für Familien mit Kindern",
+    description: "Familienfreundliche Badeseen im Harz: Juessee, Sösestausee und Oderteich. Mit Infos zu flachen Ufern, Spielmöglichkeiten und Kinderangeboten.",
+    url: "https://harzwasserguide.de/seen/seen-fuer-familien/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Wo befinden sich die schönsten Wasserfälle im Harz? – Harz Wasser Guide",
-  description: "Romkerhaller Wasserfall, Radauwasserfall und weitere Naturhighlights – mit Anfahrt und Wanderweg.",
+  title: "Wo befinden sich die schönsten Wasserfälle im Harz?",
+  description: "Romkehaller Wasserfall, Radauwasserfall, Ilsefälle – die schönsten Wasserfälle im Harz. Mit Anfahrt, Wanderwegen und Fotospots.",
+  alternates: { canonical: "https://harzwasserguide.de/wasserfaelle/schoenste-wasserfaelle/" },
+  openGraph: {
+    title: "Wo befinden sich die schönsten Wasserfälle im Harz?",
+    description: "Romkehaller Wasserfall, Radauwasserfall, Ilsefälle – die schönsten Wasserfälle im Harz. Mit Anfahrt, Wanderwegen und Fotospots.",
+    url: "https://harzwasserguide.de/wasserfaelle/schoenste-wasserfaelle/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

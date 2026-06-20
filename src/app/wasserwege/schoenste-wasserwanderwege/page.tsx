@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Was sind die schönsten Wasserwanderwege im Harz? – Harz Wasser Guide",
-  description: "Entlang von Bächen, Gräben und historischen Wasseranlagen – die schönsten Routen des Harzes.",
+  title: "Die schönsten Wasserwanderwege im Harz",
+  description: "Rehberger Graben, Ilsetal, Clausthal-Zellerfeld: die schönsten Routen entlang von Bächen, Gräben und historischen Wasseranlagen im Harz.",
+  alternates: { canonical: "https://harzwasserguide.de/wasserwege/schoenste-wasserwanderwege/" },
+  openGraph: {
+    title: "Die schönsten Wasserwanderwege im Harz",
+    description: "Rehberger Graben, Ilsetal, Clausthal-Zellerfeld: die schönsten Routen entlang von Bächen, Gräben und historischen Wasseranlagen im Harz.",
+    url: "https://harzwasserguide.de/wasserwege/schoenste-wasserwanderwege/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

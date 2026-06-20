@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Welcher Wasserfall im Harz ist der höchste? – Harz Wasser Guide",
-  description: "Ein Vergleich der bekanntesten Wasserfälle – mit Höhe, Besonderheiten und den besten Fotospots.",
+  title: "Welcher Wasserfall im Harz ist der höchste?",
+  description: "Vergleich der Harzer Wasserfälle: Romkehaller Wasserfall (20 m), Radauwasserfall (8 m), Steinerne Renne. Mit Höhe, Besonderheiten und Fotospots.",
+  alternates: { canonical: "https://harzwasserguide.de/wasserfaelle/hoechster-wasserfall/" },
+  openGraph: {
+    title: "Welcher Wasserfall im Harz ist der höchste?",
+    description: "Vergleich der Harzer Wasserfälle: Romkehaller Wasserfall (20 m), Radauwasserfall (8 m), Steinerne Renne. Mit Höhe, Besonderheiten und Fotospots.",
+    url: "https://harzwasserguide.de/wasserfaelle/hoechster-wasserfall/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

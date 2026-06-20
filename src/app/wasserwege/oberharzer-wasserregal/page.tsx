@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Was ist das Oberharzer Wasserregal? – Harz Wasser Guide",
-  description: "Das größte vorindustrielle Wassermanagementsystem der Welt – und seit 2010 UNESCO-Welterbe.",
+  title: "Oberharzer Wasserregal – UNESCO-Welterbe im Harz",
+  description: "Das Oberharzer Wasserregal: Geschichte, Funktion und wie man es heute erwandern kann. 500 km Gräben, 100 Teiche, seit 2010 UNESCO-Welterbe.",
+  alternates: { canonical: "https://harzwasserguide.de/wasserwege/oberharzer-wasserregal/" },
+  openGraph: {
+    title: "Oberharzer Wasserregal – UNESCO-Welterbe im Harz",
+    description: "Das Oberharzer Wasserregal: Geschichte, Funktion und wie man es heute erwandern kann. 500 km Gräben, 100 Teiche, seit 2010 UNESCO-Welterbe.",
+    url: "https://harzwasserguide.de/wasserwege/oberharzer-wasserregal/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

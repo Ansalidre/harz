@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Wofür wurden die Harzer Talsperren gebaut? – Harz Wasser Guide",
-  description: "Trinkwasser, Hochwasserschutz, Stromerzeugung – die Geschichte und Funktion der Harzer Stauanlagen.",
+  title: "Wofür wurden die Harzer Talsperren gebaut?",
+  description: "Geschichte und Funktion der Harzer Talsperren: Trinkwasser, Hochwasserschutz, Wasserkraft. Wie Millionen Menschen vom Harzwasser profitieren.",
+  alternates: { canonical: "https://harzwasserguide.de/talsperren/wozu-talsperren/" },
+  openGraph: {
+    title: "Wofür wurden die Harzer Talsperren gebaut?",
+    description: "Geschichte und Funktion der Harzer Talsperren: Trinkwasser, Hochwasserschutz, Wasserkraft. Wie Millionen Menschen vom Harzwasser profitieren.",
+    url: "https://harzwasserguide.de/talsperren/wozu-talsperren/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

@@ -4,8 +4,17 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Seen im Harz – Harz Wasser Guide",
-  description: "Die schönsten Badeseen, Waldteiche und Geheimtipps im Harz – von familienfreundlichen Badestellen bis zu ruhigen Naturjuwelen.",
+  title: "Seen im Harz – Badeseen, Waldteiche & Geheimtipps",
+  description: "Die schönsten Seen im Harz: Oderteich, Okerstausee, Juessee und stille Waldteiche. Mit Infos zu Bademöglichkeiten, Familientipps und Geheimtipps.",
+  alternates: { canonical: "https://harzwasserguide.de/seen/" },
+  openGraph: {
+    title: "Seen im Harz – Badeseen, Waldteiche & Geheimtipps",
+    description: "Die schönsten Seen im Harz: Oderteich, Okerstausee, Juessee und stille Waldteiche. Mit Infos zu Bademöglichkeiten, Familientipps und Geheimtipps.",
+    url: "https://harzwasserguide.de/seen/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

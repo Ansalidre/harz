@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Kann man zu den Wasserfällen im Harz wandern? – Harz Wasser Guide",
-  description: "Wanderrouten, Schwierigkeitsgrade und die schönsten Aussichtspunkte auf dem Weg zu den Harzer Wasserfällen.",
+  title: "Wandern zu Wasserfällen im Harz – Routen & Tipps",
+  description: "Wanderrouten zu Harzer Wasserfällen: Radautal (3 km), Ilsetal (12 km), Okertal. Mit Schwierigkeitsgrad, Dauer und Tipps für nasse Wege.",
+  alternates: { canonical: "https://harzwasserguide.de/wasserfaelle/wandern-wasserfaelle/" },
+  openGraph: {
+    title: "Wandern zu Wasserfällen im Harz – Routen & Tipps",
+    description: "Wanderrouten zu Harzer Wasserfällen: Radautal (3 km), Ilsetal (12 km), Okertal. Mit Schwierigkeitsgrad, Dauer und Tipps für nasse Wege.",
+    url: "https://harzwasserguide.de/wasserfaelle/wandern-wasserfaelle/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

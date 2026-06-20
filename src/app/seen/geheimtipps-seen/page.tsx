@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Gibt es versteckte Seen oder Geheimtipps im Harz? – Harz Wasser Guide",
-  description: "Abseits der großen Talsperren: ruhige Waldteiche, kleine Naturseen und unbekannte Badestellen im Harz.",
+  title: "Versteckte Seen & Geheimtipps im Harz",
+  description: "Abseits der großen Talsperren: ruhige Waldteiche, stille Naturseen und unbekannte Badestellen im Harz für Naturliebhaber und Entdecker.",
+  alternates: { canonical: "https://harzwasserguide.de/seen/geheimtipps-seen/" },
+  openGraph: {
+    title: "Versteckte Seen & Geheimtipps im Harz",
+    description: "Abseits der großen Talsperren: ruhige Waldteiche, stille Naturseen und unbekannte Badestellen im Harz für Naturliebhaber und Entdecker.",
+    url: "https://harzwasserguide.de/seen/geheimtipps-seen/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

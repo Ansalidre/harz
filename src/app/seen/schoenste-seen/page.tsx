@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Welche Seen im Harz sind die schönsten? – Harz Wasser Guide",
-  description: "Vom Oderteich bis zum Okerstausee – die schönsten Gewässer des Harzes im Überblick.",
+  title: "Welche Seen im Harz sind die schönsten?",
+  description: "Oderteich, Okerstausee, Silberteich, Juessee – die schönsten Seen im Harz mit Ausflugstipps, Besonderheiten und Informationen zu Wanderwegen.",
+  alternates: { canonical: "https://harzwasserguide.de/seen/schoenste-seen/" },
+  openGraph: {
+    title: "Welche Seen im Harz sind die schönsten?",
+    description: "Oderteich, Okerstausee, Silberteich, Juessee – die schönsten Seen im Harz mit Ausflugstipps, Besonderheiten und Informationen zu Wanderwegen.",
+    url: "https://harzwasserguide.de/seen/schoenste-seen/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

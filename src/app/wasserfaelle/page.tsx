@@ -4,8 +4,17 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Wasserfälle im Harz – Harz Wasser Guide",
-  description: "Rauschende Wasserfälle im Harz – von romantischen Waldschluchten bis zu beeindruckenden Naturschauspielen nach der Schneeschmelze.",
+  title: "Wasserfälle im Harz – Romkehaller Wasserfall, Radauwasserfall & mehr",
+  description: "Die schönsten Wasserfälle im Harz: Romkehaller Wasserfall, Radauwasserfall, Ilsefälle. Mit Wanderrouten, Fotospots und der besten Reisezeit.",
+  alternates: { canonical: "https://harzwasserguide.de/wasserfaelle/" },
+  openGraph: {
+    title: "Wasserfälle im Harz – Romkehaller Wasserfall, Radauwasserfall & mehr",
+    description: "Die schönsten Wasserfälle im Harz: Romkehaller Wasserfall, Radauwasserfall, Ilsefälle. Mit Wanderrouten, Fotospots und der besten Reisezeit.",
+    url: "https://harzwasserguide.de/wasserfaelle/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

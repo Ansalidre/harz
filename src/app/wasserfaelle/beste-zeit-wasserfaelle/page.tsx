@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Wann ist die beste Zeit für einen Besuch der Harzer Wasserfälle? – Harz Wasser Guide",
-  description: "Frühjahrsflut nach der Schneeschmelze, Herbstfarben oder eingefrorene Wasserfälle im Winter – der Saisonüberblick.",
+  title: "Wann ist die beste Zeit für Wasserfälle im Harz?",
+  description: "Frühjahr, Sommer, Herbst, Winter: Wann lohnt sich der Besuch der Harzer Wasserfälle? Mit Tipps für Fotografen, Familien und Einsamkeits-Sucher.",
+  alternates: { canonical: "https://harzwasserguide.de/wasserfaelle/beste-zeit-wasserfaelle/" },
+  openGraph: {
+    title: "Wann ist die beste Zeit für Wasserfälle im Harz?",
+    description: "Frühjahr, Sommer, Herbst, Winter: Wann lohnt sich der Besuch der Harzer Wasserfälle? Mit Tipps für Fotografen, Familien und Einsamkeits-Sucher.",
+    url: "https://harzwasserguide.de/wasserfaelle/beste-zeit-wasserfaelle/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

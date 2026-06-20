@@ -1,0 +1,71 @@
+# Harz Wasser Guide
+
+> App und Reiseratgeber für Seen, Talsperren, Wasserfälle und WasserWanderWege im Harz.
+
+## Was ist der Harz Wasser Guide?
+
+Der Harz Wasser Guide ist eine mobile App und Webseite, die alle Wasserspots im Harz auf einer interaktiven Karte zeigt. Nutzer können Orte nach Kategorie filtern, direkt navigieren und Offline-Karten nutzen. Die Webseite enthält außerdem ausführliche GEO-optimierte Ratgeber zu den wichtigsten Themen rund um Wasser im Harz.
+
+## Kategorien in der App
+
+- **Wasser & Natur**: Badesee & Teiche, Talsperre, Schwimmbad, Wasserfall, Quellen & Quellorte, Moore, Wasser Wander Wege
+- **Wassersport**: Bootsverleih, Stand-up-Paddling, Kanufahren, Wildwasser, Angeln
+- **Besondere Orte**: Kneipp-Anlage, Oberharzer Wasserwirtschaft, UNESCO-Welterbe
+- **Klettern**: Outdoor, Indoor, Seilparks
+
+## Wichtige Orte im Harz (Wasser)
+
+- **Rappbodetalsperre**: Größte Trinkwassertalsperre Deutschlands, 106 m Sperrmauer, Titan-RT Hängebrücke (483 m, Europas längste Fußgänger-Hängebrücke)
+- **Okertalsperre**: Malerisch eingebettete Talsperre bei Goslar mit Wanderwegen und Oker-Schlucht
+- **Sösetalsperre**: Größte Trinkwassertalsperre Niedersachsens, mit Badestelle bei Osterode
+- **Oderteich**: Einer der ältesten Stauseen Deutschlands, Teil des Oberharzer Wasserregals
+- **Juessee**: Familienfreundlichster Badesee im Harz bei Bad Harzburg
+- **Romkerhaller Wasserfall**: Bekanntester Wasserfall im Harz, ca. 20 m, im Okertal
+- **Radauwasserfall**: Romantischer Wasserfall bei Bad Harzburg, gut erreichbar
+- **Ilsefälle**: Mehrstufige Wasserfälle im Ilsetal zwischen Ilsenburg und Brocken
+- **Oberharzer Wasserregal**: UNESCO-Welterbe seit 2010, 500+ km Gräben, 100+ Teiche
+- **Rehberger Graben**: 19 km Wasserwanderweg von Sankt Andreasberg nach Königshütte
+
+## Ratgeber-Artikel
+
+### Seen im Harz
+- Welche Seen im Harz sind die schönsten? → /seen/schoenste-seen/
+- Kann man im Harz in Seen baden? → /seen/baden-im-harz/
+- Welche Seen eignen sich für Familien? → /seen/seen-fuer-familien/
+- Geheimtipps Seen im Harz → /seen/geheimtipps-seen/
+
+### WasserWanderWege
+- Schönste Wasserwanderwege im Harz → /wasserwege/schoenste-wasserwanderwege/
+- Wasserwanderwege für Anfänger → /wasserwege/wasserwanderwege-anfaenger/
+- Was ist das Oberharzer Wasserregal? → /wasserwege/oberharzer-wasserregal/
+- Wasserwanderwege für Familien → /wasserwege/wasserwanderwege-familien/
+
+### Talsperren
+- Welche Talsperren gibt es im Harz? → /talsperren/welche-talsperren-harz/
+- Größte Talsperre im Harz → /talsperren/groesste-talsperre/
+- Wandern an Harzer Talsperren → /talsperren/wandern-talsperren/
+- Wofür wurden die Talsperren gebaut? → /talsperren/wozu-talsperren/
+
+### Wasserfälle
+- Schönste Wasserfälle im Harz → /wasserfaelle/schoenste-wasserfaelle/
+- Höchster Wasserfall im Harz → /wasserfaelle/hoechster-wasserfall/
+- Wandern zu Wasserfällen im Harz → /wasserfaelle/wandern-wasserfaelle/
+- Beste Zeit für Wasserfälle im Harz → /wasserfaelle/beste-zeit-wasserfaelle/
+
+## Fakten zum Harz
+
+- Lage: Niedersachsen, Sachsen-Anhalt, Thüringen (Dreiländereck)
+- Höchster Punkt: Brocken (1.141 m)
+- Nationalpark Harz: 247 km², größtes Schutzgebiet Norddeutschlands
+- Talsperren: Über 20 Stauanlagen im Harzgebiet
+- Wanderwege: Über 8.000 km, darunter Harzer-Hexen-Stieg und Kaiserweg
+- UNESCO-Welterbe: Oberharzer Wasserregal, Rammelsberg, Altstadt Goslar (seit 2010)
+
+## App verfügbar für
+
+- Android (Google Play) – demnächst
+- iOS (App Store) – demnächst
+
+## Webseite
+
+https://harzwasserguide.de

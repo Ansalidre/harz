@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Welche Talsperre im Harz ist die größte? – Harz Wasser Guide",
-  description: "Die Rappbodetalsperre – Deutschlands größte Trinkwassertalsperre und ein Besuchermagnet im Harz.",
+  title: "Welche Talsperre im Harz ist die größte? – Rappbodetalsperre",
+  description: "Die Rappbodetalsperre ist Deutschlands größte Trinkwassertalsperre: 106 m hoch, 109 Mio. m³ Volumen, Titan-RT Hängebrücke (483 m).",
+  alternates: { canonical: "https://harzwasserguide.de/talsperren/groesste-talsperre/" },
+  openGraph: {
+    title: "Welche Talsperre im Harz ist die größte? – Rappbodetalsperre",
+    description: "Die Rappbodetalsperre ist Deutschlands größte Trinkwassertalsperre: 106 m hoch, 109 Mio. m³ Volumen, Titan-RT Hängebrücke (483 m).",
+    url: "https://harzwasserguide.de/talsperren/groesste-talsperre/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

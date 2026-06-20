@@ -4,8 +4,17 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "WasserWanderWege im Harz – Harz Wasser Guide",
-  description: "Wanderrouten entlang von Bächen, Gräben und historischen Wasseranlagen – das UNESCO-Welterbe Oberharzer Wasserregal erleben.",
+  title: "WasserWanderWege im Harz – Historische Gräben & UNESCO-Welterbe",
+  description: "Wandern entlang von Gräben, Teichen und Bächen im Harz. Oberharzer Wasserregal, Rehberger Graben und Routen für Anfänger und Familien.",
+  alternates: { canonical: "https://harzwasserguide.de/wasserwege/" },
+  openGraph: {
+    title: "WasserWanderWege im Harz – Historische Gräben & UNESCO-Welterbe",
+    description: "Wandern entlang von Gräben, Teichen und Bächen im Harz. Oberharzer Wasserregal, Rehberger Graben und Routen für Anfänger und Familien.",
+    url: "https://harzwasserguide.de/wasserwege/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

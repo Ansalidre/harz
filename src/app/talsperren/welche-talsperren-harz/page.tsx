@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Welche Talsperren gibt es im Harz? – Harz Wasser Guide",
-  description: "Von der Rappbodetalsperre bis zur Sösetalsperre – alle großen Stauanlagen des Harzes im Überblick.",
+  title: "Welche Talsperren gibt es im Harz? – Überblick",
+  description: "Übersicht aller großen Harzer Talsperren: Rappbodetalsperre, Okertalsperre, Sösetalsperre, Granetalsperre – mit Karte, Wanderwegen und Infos.",
+  alternates: { canonical: "https://harzwasserguide.de/talsperren/welche-talsperren-harz/" },
+  openGraph: {
+    title: "Welche Talsperren gibt es im Harz? – Überblick",
+    description: "Übersicht aller großen Harzer Talsperren: Rappbodetalsperre, Okertalsperre, Sösetalsperre, Granetalsperre – mit Karte, Wanderwegen und Infos.",
+    url: "https://harzwasserguide.de/talsperren/welche-talsperren-harz/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {

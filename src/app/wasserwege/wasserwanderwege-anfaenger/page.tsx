@@ -4,8 +4,17 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Welche Wasserwanderwege im Harz sind auch für Anfänger geeignet? – Harz Wasser Guide",
-  description: "Leichte Rundwanderungen mit wenig Höhenmetern, kurzen Strecken und schönen Wasserblicken.",
+  title: "Wasserwanderwege im Harz für Anfänger",
+  description: "Leichte Wasserwanderwege im Harz: Graben-Runde Buntenbock, Prinzenteich-Runde. Mit Länge, Dauer, Schwierigkeitsgrad und Tipps für Einsteiger.",
+  alternates: { canonical: "https://harzwasserguide.de/wasserwege/wasserwanderwege-anfaenger/" },
+  openGraph: {
+    title: "Wasserwanderwege im Harz für Anfänger",
+    description: "Leichte Wasserwanderwege im Harz: Graben-Runde Buntenbock, Prinzenteich-Runde. Mit Länge, Dauer, Schwierigkeitsgrad und Tipps für Einsteiger.",
+    url: "https://harzwasserguide.de/wasserwege/wasserwanderwege-anfaenger/",
+    type: "website",
+    locale: "de_DE",
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {
