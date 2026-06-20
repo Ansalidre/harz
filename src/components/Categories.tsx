@@ -1,40 +1,67 @@
 import {
+  MapPin,
   Droplet,
   Waves,
-  MapPin,
   Sailboat,
   Footprints,
   Mountain,
-  Tent,
   Fish,
+  Zap,
+  Building2,
+  Landmark,
+  Flame,
+  Dumbbell,
+  TreePine,
+  Home,
+  PersonStanding,
+  Anchor,
 } from "lucide-react";
 
 const groups = [
   {
     label: "Wasser & Natur",
     dot: "bg-sage",
+    color: "text-sage",
     items: [
-      { icon: MapPin, name: "Badesee & Teiche" },
-      { icon: Droplet, name: "Talsperre" },
-      { icon: Waves, name: "Wasserfall" },
-      { icon: Droplet, name: "Quellen & Quellorte" },
+      { icon: MapPin,          name: "Badesee & Teiche" },
+      { icon: Home,            name: "Talsperre" },
+      { icon: PersonStanding,  name: "Schwimmbad" },
+      { icon: Waves,           name: "Wasserfall" },
+      { icon: Droplet,         name: "Quellen & Quellorte" },
+      { icon: MapPin,          name: "Moore" },
+      { icon: Footprints,      name: "Wasser Wander Wege" },
     ],
   },
   {
     label: "Wassersport",
-    dot: "bg-clay",
+    dot: "bg-emerald-500",
+    color: "text-emerald-600",
     items: [
-      { icon: Sailboat, name: "Bootsverleih" },
-      { icon: Footprints, name: "Kanufahren" },
-      { icon: Fish, name: "Angeln" },
+      { icon: Sailboat,  name: "Bootsverleih" },
+      { icon: Zap,       name: "Stand-up-Paddling" },
+      { icon: Anchor,    name: "Kanufahren" },
+      { icon: Waves,     name: "Wildwasser" },
+      { icon: Fish,      name: "Angeln" },
     ],
   },
   {
-    label: "Wandern & Klettern",
-    dot: "bg-moss",
+    label: "Besondere Orte",
+    dot: "bg-amber-400",
+    color: "text-amber-600",
     items: [
-      { icon: Mountain, name: "Wasser-Wanderwege" },
-      { icon: Tent, name: "Outdoor & Seilparks" },
+      { icon: Flame,    name: "Kneipp-Anlage" },
+      { icon: Waves,    name: "Oberharzer Wasserwirtschaft" },
+      { icon: Landmark, name: "UNESCO-Welterbe" },
+    ],
+  },
+  {
+    label: "Klettern",
+    dot: "bg-rose-400",
+    color: "text-rose-500",
+    items: [
+      { icon: Mountain,  name: "Outdoor" },
+      { icon: Building2, name: "Indoor" },
+      { icon: TreePine,  name: "Seilparks" },
     ],
   },
 ];
@@ -51,13 +78,13 @@ export default function Categories() {
             Sortiert nach dem, was du vorhast
           </h2>
           <p className="mt-4 text-ink/70 leading-relaxed">
-            Egal ob ruhiger Badetag, eine Wanderung am Wasser oder Stand-up-Paddling
-            auf der Talsperre – die App sortiert alle Orte in klare Kategorien,
-            damit du genau das findest, worauf du Lust hast.
+            Egal ob ruhiger Badetag, eine Wanderung am Wasser, Stand-up-Paddling
+            auf der Talsperre oder ein UNESCO-Welterbe entlang der Harzhochstraße
+            – die App sortiert alle Orte in klare Kategorien.
           </p>
         </div>
 
-        <div className="mt-14 grid gap-10 sm:grid-cols-3">
+        <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {groups.map((group, gi) => (
             <div key={group.label} className="reveal" style={{ animationDelay: `${gi * 90}ms` }}>
               <div className="flex items-center gap-2 mb-5">
@@ -66,13 +93,13 @@ export default function Categories() {
                   {group.label}
                 </h3>
               </div>
-              <ul className="space-y-3">
+              <ul className="space-y-2.5">
                 {group.items.map((item) => (
                   <li
                     key={item.name}
-                    className="flex items-center gap-3 rounded-xl bg-sand/60 border border-mist px-4 py-3 text-sm font-medium text-ink/85"
+                    className="flex items-center gap-3 rounded-xl bg-sand/60 border border-mist px-4 py-2.5 text-sm font-medium text-ink/85"
                   >
-                    <item.icon className="h-4.5 w-4.5 text-sage shrink-0" strokeWidth={1.8} />
+                    <item.icon className={`h-4 w-4 ${group.color} shrink-0`} strokeWidth={1.8} />
                     {item.name}
                   </li>
                 ))}
