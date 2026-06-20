@@ -149,3 +149,77 @@ h1, h2, h3, h4, .font-display {
     }
   }
 }
+
+/* ─── GUIDE PROSE ──────────────────────────────────────── */
+.guide-prose h2 {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-moss);
+  margin-top: 2.5rem;
+  margin-bottom: 0.875rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+.guide-prose h3 {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.guide-prose p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(26,36,32,0.82);
+  margin-bottom: 1.1rem;
+}
+.guide-prose ul {
+  margin: 0.75rem 0 1.25rem 0;
+  padding-left: 0;
+  list-style: none;
+}
+.guide-prose ul li {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: rgba(26,36,32,0.78);
+  padding-left: 1.25rem;
+  position: relative;
+  margin-bottom: 0.4rem;
+}
+.guide-prose ul li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: var(--color-sage);
+}
+.guide-prose strong { color: var(--color-ink); font-weight: 600; }
+
+.guide-prose .info-box {
+  background: var(--color-sand);
+  border: 1px solid var(--color-mist);
+  border-radius: 1rem;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+}
+.guide-prose .info-box .label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--color-sage);
+  margin-bottom: 0.5rem;
+}
+.guide-prose .highlight {
+  background: rgba(74,124,102,0.08);
+  border-left: 3px solid var(--color-sage);
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+/* Color tokens for guide pages */
+:root {
+  --color-muted: #8a8f9a;
+}
