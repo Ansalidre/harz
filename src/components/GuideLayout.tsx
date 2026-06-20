@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export interface GuideMetaInfo {
-  difficulty?: "Leicht" | "Mittel" | "Anspruchsvoll";
+  difficulty?: "Leicht" | "Mittel" | "Anspruchsvoll" | "Leicht bis Mittel" | "Mittel bis Anspruchsvoll";
   duration?: string;
   bestSeason?: string;
   dogs?: boolean;
@@ -35,6 +35,8 @@ const difficultyColor: Record<string, string> = {
   "Leicht": "bg-emerald-100 text-emerald-700",
   "Mittel": "bg-amber-100 text-amber-700",
   "Anspruchsvoll": "bg-rose-100 text-rose-700",
+  "Leicht bis Mittel": "bg-amber-50 text-amber-600",
+  "Mittel bis Anspruchsvoll": "bg-orange-100 text-orange-700",
 };
 
 export default function GuideLayout({
