@@ -157,7 +157,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                       "name": "Welche Seen im Harz sind die schönsten?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Zu den schönsten Seen im Harz zählen der Oderteich bei Sankt Andreasberg, der Okerstausee bei Goslar, der Silberteich bei Clausthal-Zellerfeld und der Juessee bei Bad Harzburg. Letzterer ist auch die beste offizielle Badestelle im Harz.",
+                        "text": "Zu den schönsten Seen im Harz zählen der Oderteich bei Sankt Andreasberg, der Okerstausee, der Silberteich bei Clausthal-Zellerfeld und der Juessee bei Herzberg am Harz (Südharz). Letzterer ist auch die beste offizielle Badestelle im Harz.",
                       },
                     },
                     {

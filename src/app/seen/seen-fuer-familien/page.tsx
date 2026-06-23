@@ -39,7 +39,7 @@ export default function Page() {
           mapZoom: 11,
         }}
         faqs={[
-          { q: "Welcher See hat den flachsten Zugang für Kleinkinder?", a: "Der Juessee bei Bad Harzburg gilt als besonders familienfreundlich mit flachem Sandstrand." },
+          { q: "Welcher See hat den flachsten Zugang für Kleinkinder?", a: "Der Juessee bei Herzberg am Harz gilt als besonders familienfreundlich mit flachem Sandstrand." },
           { q: "Gibt es Spielplätze an den Badeseen?", a: "Einige Badestellen haben Spielbereiche. Der Juessee und die Okertalsperre bieten Freizeitinfrastruktur." },
           { q: "Sind Grillplätze an den Seen vorhanden?", a: "An ausgewählten Stellen gibt es Grillmöglichkeiten. Im Nationalpark ist Grillen nicht erlaubt." },
           { q: "Wie lange dauert ein Familienausflug zum See?", a: "Plant mindestens einen halben Tag ein. Mit Anfahrt, Baden und Picknick sind 4–6 Stunden realistisch." },
@@ -53,7 +53,7 @@ export default function Page() {
             und im besten Fall noch ein Eis am Ufer. Der Harz bietet genau das — wenn man
             die richtigen Seen kennt.
           </p>
-          <h2>Juessee bei Bad Harzburg – die erste Wahl für Familien</h2>
+          <h2>Juessee bei Herzberg am Harz – die erste Wahl für Familien</h2>
           <p>
             Der Juessee ist der familienfreundlichste Badesee im Harz. Der Sandstrand fällt
             sehr flach ab, sodass auch Kleinkinder sicher planschen können. Es gibt sanitäre
@@ -61,7 +61,7 @@ export default function Page() {
           </p>
           <div className="info-box">
             <div className="label">Juessee im Überblick</div>
-            <p>Ort: Bad Harzburg · Parkplatz: Vorhanden, kostenpflichtig in der Saison ·
+            <p>Ort: Herzberg am Harz (Südharz) · Parkplatz: Vorhanden, kostenpflichtig in der Saison ·
             Sanitäranlagen: Ja · Kiosk: Saisonal · Hunde: Eigener Bereich vorhanden</p>
           </div>
           <h2>Sösestausee – Baden und Wandern kombinieren</h2>

@@ -39,7 +39,7 @@ export default function Page() {
           mapZoom: 10,
         }}
         faqs={[
-          { q: "Welche Seen eignen sich für Schwimmer?", a: "Oderteich, Juessee und einige Badeteiche rund um Bad Harzburg sind für Schwimmer freigegeben und gut zugänglich." },
+          { q: "Welche Seen eignen sich für Schwimmer?", a: "Oderteich, Juessee und einige Badeteiche im Südharz sind für Schwimmer freigegeben und gut zugänglich." },
           { q: "Sind alle Harzer Seen frei zugänglich?", a: "Die meisten Seen sind frei zugänglich. Talsperren haben teils Betretungsverbote im Uferbereich zum Schutz des Trinkwassers." },
           { q: "Gibt es Seen mit Verleih von Booten oder SUPs?", a: "An einigen Seen wie dem Juessee gibt es saisonalen Bootsverleih. Die Harz Wasser Guide App zeigt aktuelle Angebote." },
           { q: "Wie ist die Wasserqualität an den Harzer Seen?", a: "Die meisten Badestellen haben sehr gute Wasserqualität. Aktuelle Messwerte gibt es beim Niedersächsischen Landesgesundheitsamt." },
@@ -64,7 +64,7 @@ export default function Page() {
           </p>
           <div className="info-box">
             <div className="label">Oderteich im Überblick</div>
-            <p>Lage: Sankt Andreasberg · Rundweg: ca. 4 km · Parkplatz: Kostenpflichtig · Baden: Nicht erlaubt (Trinkwasserschutz)</p>
+            <p>Lage: Sankt Andreasberg · Rundweg: ca. 4 km · Parkplatz: Kostenpflichtig · Baden: Erlaubt an ausgewiesenen Stellen</p>
           </div>
           <h2>Okerstausee – Naturerlebnis mit Panoramablick</h2>
           <p>
@@ -83,9 +83,9 @@ export default function Page() {
             Fotografen an. Der Weg dorthin führt durch alten Fichtenwald und lässt sich gut
             mit weiteren Teichen des Wasserregals kombinieren.
           </p>
-          <h2>Juessee – der Badesee bei Bad Harzburg</h2>
+          <h2>Juessee – der Badesee bei Herzberg am Harz</h2>
           <p>
-            Wer tatsächlich ins Wasser möchte, ist am Juessee bei Bad Harzburg am besten
+            Wer tatsächlich ins Wasser möchte, ist am Juessee bei Herzberg am Harz am besten
             aufgehoben. Der See hat einen flachen Sandstrand, klares Wasser und ist
             besonders für Familien mit Kindern geeignet.
           </p>

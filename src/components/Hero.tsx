@@ -31,7 +31,10 @@ export default function Hero() {
               <span className="italic text-clay"> auf einer Karte.</span>
             </h1>
 
-            <p className="mt-6 max-w-xl text-lg text-cream/80 leading-relaxed">
+            <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-cream/10 border border-cream/15 px-3.5 py-1 text-xs font-semibold text-cream/80">
+              📖 Diese Seite wächst ständig – das <span className="text-clay font-bold ml-1">WasserWiki Harz</span>
+            </div>
+            <p className="mt-4 max-w-xl text-lg text-cream/80 leading-relaxed">
               Der Harz Wasser Guide zeigt dir Talsperren, Moore, Badeseen und
               Wassersport-Spots zwischen Brocken und Bode – mit kurzen
               Beschreibungen, Filtern nach Kategorie und Navigation direkt zum Ziel.

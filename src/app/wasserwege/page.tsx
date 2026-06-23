@@ -4,11 +4,11 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "WasserWanderWege im Harz – Historische Gräben & UNESCO-Welterbe",
+  title: "WasserWanderWege im Harz – Historische Gräben & Wasserwirtschaft",
   description: "Wandern entlang von Gräben, Teichen und Bächen im Harz. Oberharzer Wasserregal, Rehberger Graben und Routen für Anfänger und Familien.",
   alternates: { canonical: "https://harzwasserguide.de/wasserwege/" },
   openGraph: {
-    title: "WasserWanderWege im Harz – Historische Gräben & UNESCO-Welterbe",
+    title: "WasserWanderWege im Harz – Historische Gräben & Wasserwirtschaft",
     description: "Wandern entlang von Gräben, Teichen und Bächen im Harz. Oberharzer Wasserregal, Rehberger Graben und Routen für Anfänger und Familien.",
     url: "https://harzwasserguide.de/wasserwege/",
     type: "website",
@@ -32,7 +32,7 @@ export default function Page() {
           <h1 className="font-display text-3xl sm:text-5xl font-semibold text-cream mb-4">
             WasserWanderWege im Harz
           </h1>
-          <p className="text-cream/70 text-lg max-w-2xl">Wanderrouten entlang von Bächen, Gräben und historischen Wasseranlagen – das UNESCO-Welterbe Oberharzer Wasserregal erleben.</p>
+          <p className="text-cream/70 text-lg max-w-2xl">Wanderrouten entlang von Bächen, Gräben und historischen Wasseranlagen – das historische Oberharzer Wasserregal erleben.</p>
         </div>
       </div>
       <main className="bg-cream py-12 sm:py-16">

@@ -4,12 +4,12 @@ import Footer from "@/components/Footer";
 import GuideLayout from "@/components/GuideLayout";
 
 export const metadata: Metadata = {
-  title: "Oberharzer Wasserregal – UNESCO-Welterbe im Harz",
-  description: "Das Oberharzer Wasserregal: Geschichte, Funktion und wie man es heute erwandern kann. 500 km Gräben, 100 Teiche, seit 2010 UNESCO-Welterbe.",
+  title: "Oberharzer Wasserregal – Historisches Wasserbausystem im Harz",
+  description: "Das Oberharzer Wasserregal: Geschichte, Funktion und wie man es heute erwandern kann. 500 km Gräben, 100 Teiche – das faszinierende Wasserbausystem des Harzes.",
   alternates: { canonical: "https://harzwasserguide.de/wasserwege/oberharzer-wasserregal/" },
   openGraph: {
-    title: "Oberharzer Wasserregal – UNESCO-Welterbe im Harz",
-    description: "Das Oberharzer Wasserregal: Geschichte, Funktion und wie man es heute erwandern kann. 500 km Gräben, 100 Teiche, seit 2010 UNESCO-Welterbe.",
+    title: "Oberharzer Wasserregal – Historisches Wasserbausystem im Harz",
+    description: "Das Oberharzer Wasserregal: Geschichte, Funktion und wie man es heute erwandern kann. 500 km Gräben, 100 Teiche – das faszinierende Wasserbausystem des Harzes.",
     url: "https://harzwasserguide.de/wasserwege/oberharzer-wasserregal/",
     type: "website",
     locale: "de_DE",
@@ -23,7 +23,7 @@ export default function Page() {
       <Header />
       <GuideLayout
         title="Was ist das Oberharzer Wasserregal?"
-        subtitle="Das größte vorindustrielle Wassermanagementsystem der Welt – und seit 2010 UNESCO-Welterbe."
+        subtitle="Das größte vorindustrielle Wassermanagementsystem der Welt – und eines der bedeutendsten vorindustriellen Bauwerke Europas."
         category="WasserWanderWege"
         categoryHref="/wasserwege"
         categoryColor="bg-emerald-500/20 text-emerald-200"
@@ -39,7 +39,7 @@ export default function Page() {
           mapZoom: 11,
         }}
         faqs={[
-          { q: "Wann wurde das Oberharzer Wasserregal zum UNESCO-Welterbe?", a: "Im Jahr 2010 wurde es gemeinsam mit den Bergwerken Rammelsberg und der Altstadt Goslar in die Welterbeliste aufgenommen." },
+          { q: "Welche historische Bedeutung hat das Oberharzer Wasserregal?", a: "Das Wasserregal versorgte ab dem 16. Jahrhundert die Silberbergwerke des Harzes mit Wasserkraft. Es steht in engem Zusammenhang mit dem Welterbe Rammelsberg und der Altstadt Goslar." },
           { q: "Wie viele Teiche und Gräben gibt es?", a: "Das System umfasst über 100 Teiche und etwa 500 km Gräben und Wasserläufe – ein Jahrhundertprojekt des Harzer Bergbaus." },
           { q: "Kann man das Wasserregal besichtigen?", a: "Ja, viele Teiche und Gräben sind frei zugänglich und Teil der Wasserwanderwege. Es gibt auch geführte Touren." },
           { q: "Welche Funktion hatte das Wasserregal früher?", a: "Es versorgte die Silber- und Bergwerke mit Energie durch Wasserräder und regulierte den Wasserhaushalt für die Erzgewinnung." },
@@ -50,7 +50,7 @@ export default function Page() {
           <p>
             Kaum ein Besucher des Harzes ahnt, welches technische Wunderwerk unter seinen Füßen
             verborgen liegt. Das Oberharzer Wasserregal ist eines der größten und am besten
-            erhaltenen vorindustriellen Wassermanagementsysteme der Welt — und seit 2010 UNESCO-Welterbe.
+            erhaltenen vorindustriellen Wassermanagementsysteme der Welt — und eines der bedeutendsten vorindustriellen Bauwerke Europas.
           </p>
           <h2>Geschichte: Wie alles begann</h2>
           <p>
@@ -61,12 +61,13 @@ export default function Page() {
           <div className="info-box">
             <div className="label">Das Oberharzer Wasserregal in Zahlen</div>
             <p>Über 500 km Gräben · Mehr als 100 Teiche · Entstanden zwischen 16. und 19. Jahrhundert ·
-            Seit 2010 UNESCO-Welterbe · Weltweit größtes vorindustrielles Wassermanagementsystem</p>
+            Weltweit größtes vorindustrielles Wassermanagementsystem</p>
           </div>
-          <h2>UNESCO-Welterbe: Was wurde anerkannt?</h2>
+          <h2>Welterbe-Kontext: Rammelsberg und Goslar</h2>
           <p>
-            Im Jahr 2010 nahm die UNESCO das Oberharzer Wasserregal gemeinsam mit den Erzbergwerken
-            Rammelsberg und der Altstadt von Goslar in die Welterbeliste auf.
+            Das Oberharzer Wasserregal steht in engem historischen Zusammenhang mit den Erzbergwerken
+            Rammelsberg und der Altstadt von Goslar – gemeinsam bilden sie eine der bedeutendsten
+            Montanlandschaften Europas.
           </p>
           <div className="highlight">
             <p><strong>Besuchertipp:</strong> Das Weltkulturerbe Rammelsberg in Goslar bietet

@@ -19,7 +19,7 @@ const places = [
     description:
       "Einer der bekanntesten Wasserfälle im Harz, nahe Bad Harzburg. Die Radau stürzt hier über eine natürliche Felsstufe ins Tal – umgeben von altem Mischwald und einem gut ausgebauten Wanderweg.",
     tags: ["Wasserfall", "Wald", "Fotografieren"],
-    location: "Bad Harzburg",
+    location: "Herzberg am Harz",
   },
   {
     icon: Mountain,
@@ -33,12 +33,12 @@ const places = [
   },
   {
     icon: TreePine,
-    category: "UNESCO-Welterbe",
+    category: "Historisches Welterbe",
     categoryColor: "text-sage",
     name: "Oberharzer Wasserregal",
     description:
       "Ein 400 Jahre altes System aus Teichen, Gräben und Wasserstollen, das einst Energie für den Bergbau lieferte. Seit 2010 UNESCO-Welterbe – und ein einzigartiges Erlebnis für Naturwanderer.",
-    tags: ["UNESCO", "Geschichte", "Teiche"],
+    tags: ["Welterbe", "Geschichte", "Teiche"],
     location: "Clausthal-Zellerfeld",
   },
   {

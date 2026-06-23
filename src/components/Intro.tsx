@@ -15,7 +15,7 @@ export default function Intro() {
               Der Harz erstreckt sich über die Grenzen von Niedersachsen,
               Sachsen-Anhalt und Thüringen – und ist das nördlichste Mittelgebirge
               Deutschlands. Über Jahrhunderte war er Bergbauregion; die
-              Wasserwirtschaft der Oberharzer Bergleute ist heute UNESCO-Welterbe.
+              Wasserwirtschaft der Oberharzer Bergleute – das Oberharzer Wasserregal – prägt bis heute die Landschaft.
               Heute lockt er mit dem Nationalpark Harz, dem Brocken als
               höchstem Gipfel des Nordens, und einem dichten Netz aus Bächen,
               Talsperren, Mooren und Wasserfällen.
@@ -31,11 +31,11 @@ export default function Intro() {
               </p>
             </div>
             <div className="rounded-2xl bg-sand border border-mist px-5 py-4">
-              <p className="text-xs font-semibold uppercase tracking-wide text-clay mb-1">UNESCO-Welterbe</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-clay mb-1">Historisches Weltkulturerbe</p>
               <p className="text-sm text-ink/80 leading-relaxed">
                 Das Oberharzer Wasserregal – ein historisches System aus über
                 100 Teichen, Gräben und Wasserläufen – wurde 2010 in die
-                UNESCO-Welterbeliste aufgenommen.
+                Welterbeliste aufgenommen – gemeinsam mit dem Erzbergwerk Rammelsberg und der Altstadt Goslar.
               </p>
             </div>
           </div>

@@ -55,7 +55,7 @@ export default function Page() {
           </p>
           <h2>Erlaubte Badestellen im Harz</h2>
           <p>
-            Die wichtigste offizielle Badestelle ist der <strong>Juessee</strong> bei Bad Harzburg.
+            Die wichtigste offizielle Badestelle ist der <strong>Juessee bei Herzberg am Harz</strong> (Südharz).
             Er ist regelmäßig auf Wasserqualität geprüft, hat einen flachen Sandstrand und gilt als
             familienfreundlichster Badesee des Harzes. Weitere freigegebene Badestellen finden sich
             am <strong>Sösestausee</strong> nahe Osterode.
@@ -67,8 +67,9 @@ export default function Page() {
           </div>
           <h2>Wo ist Baden verboten?</h2>
           <p>
-            An den großen Talsperren — <strong>Rappbodetalsperre, Okertalsperre, Granetalsperre,
-            Oderteich</strong> — ist Baden grundsätzlich verboten, da sie der Trinkwasserversorgung dienen.
+            An der <strong>Rappbodetalsperre</strong> und der <strong>Granetalsperre</strong> ist Baden
+            verboten, da sie der Trinkwasserversorgung dienen. An der <strong>Okertalsperre</strong>
+            und am <strong>Oderteich</strong> gibt es hingegen ausgewiesene Badebereiche.
           </p>
           <div className="highlight">
             <p><strong>Wichtig:</strong> Das Missachten der Badeverbote an Talsperren kann mit

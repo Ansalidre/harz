@@ -6,7 +6,7 @@ const facts = [
     note: "und Namensgeber der berühmtesten deutschen Walpurgisnacht",
   },
   {
-    number: "19",
+    number: "15",
     unit: "+",
     label: "Talsperren & Stauseen",
     note: "davon die Rappbodetalsperre – größte Trinkwassertalsperre Deutschlands",

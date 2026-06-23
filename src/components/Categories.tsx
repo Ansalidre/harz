@@ -51,7 +51,7 @@ const groups = [
     items: [
       { icon: Flame,    name: "Kneipp-Anlage" },
       { icon: Waves,    name: "Oberharzer Wasserwirtschaft" },
-      { icon: Landmark, name: "UNESCO-Welterbe" },
+      { icon: Landmark, name: "Welterbe Harz" },
     ],
   },
   {
@@ -79,7 +79,7 @@ export default function Categories() {
           </h2>
           <p className="mt-4 text-ink/70 leading-relaxed">
             Egal ob ruhiger Badetag, eine Wanderung am Wasser, Stand-up-Paddling
-            auf der Talsperre oder ein UNESCO-Welterbe entlang der Harzhochstraße
+            auf der Talsperre oder historische Welterbe-Stätten entlang der Harzhochstraße
             – die App sortiert alle Orte in klare Kategorien.
           </p>
         </div>

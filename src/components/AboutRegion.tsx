@@ -11,7 +11,7 @@ const highlights = [
   },
   {
     label: "Welterbe Bergbau",
-    text: "Goslar, Rammelsberg und das Oberharzer Wasserregal sind gemeinsam UNESCO-Welterbe – über 3.000 Jahre Bergbaugeschichte.",
+    text: "Goslar, Rammelsberg und das Oberharzer Wasserregal bilden gemeinsam eine der bedeutendsten Bergbaulandschaften Europas – über 1.000 Jahre Bergbaugeschichte.",
   },
   {
     label: "Wasser als Lebensader",
